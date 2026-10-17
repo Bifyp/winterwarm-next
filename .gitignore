@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+.vercel/
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+playwright-report/
+test-results/
+qa/
+# Binary assets are restored deterministically by predev/prebuild.
+public/assets/*.webp
+public/assets/*.woff2
+
+.taste-skill/

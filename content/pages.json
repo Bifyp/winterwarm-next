@@ -1,0 +1,62 @@
+{
+  "index": {
+    "title": "Technologia, która pracuje.",
+    "description": "HVAC, drzwi i bramy oraz oświetlenie LED dla Twojej inwestycji. Winterwarm Polska."
+  },
+  "rozwiazania": {
+    "title": "Rozwiązania dla budynku",
+    "description": "Poznaj HVAC, drzwi i bramy oraz oświetlenie LED Winterwarm Polska."
+  },
+  "hvac": {
+    "title": "HVAC dla Twojego obiektu",
+    "description": "Ogrzewanie nadmuchowe, promiennikowe, wentylacja i chłodzenie. Poznaj ofertę HVAC Winterwarm."
+  },
+  "drzwi-bramy": {
+    "title": "Drzwi, bramy i doki",
+    "description": "Stolarka, strefy przeładunkowe i ochrona przeciwpożarowa z oferty Winterwarm."
+  },
+  "oswietlenie": {
+    "title": "Oświetlenie LED",
+    "description": "Skyline, NEXTGEN, DATALUX, Prefab i Bandraster. Poznaj oświetlenie LED Winterwarm."
+  },
+  "produkty": {
+    "title": "Katalog produktów i systemów",
+    "description": "Wyszukaj HVAC, drzwi, bramy i oświetlenie LED. Katalog rozwiązań Winterwarm Polska."
+  },
+  "xr-plus": {
+    "title": "Nagrzewnica Winterwarm XR+",
+    "description": "Cechy, parametry i porównanie dziewięciu modeli nagrzewnic gazowych Winterwarm XR+."
+  },
+  "skyline": {
+    "title": "System oświetlenia LED Skyline",
+    "description": "Modułowe oprawy liniowe Skyline. Cechy, parametry i kontakt do działu LED Winterwarm."
+  },
+  "bramy-doki": {
+    "title": "Bramy przemysłowe i doki",
+    "description": "Bramy Wiśniowski i Krispol oraz doki Wiśniowski z oferty Winterwarm Polska."
+  },
+  "obiekty": {
+    "title": "Rozwiązania według obiektu",
+    "description": "Przewodnik po potrzebach hali, magazynu, warsztatu, handlu i obiektu sportowego."
+  },
+  "o-nas": {
+    "title": "O Winterwarm Polska",
+    "description": "Poznaj zespół, zakres współpracy i lokalizacje Winterwarm Polska."
+  },
+  "realizacje": {
+    "title": "Przestrzenie i instalacje",
+    "description": "Galeria fotografii przestrzeni i instalacji z materiałów Winterwarm Polska."
+  },
+  "kontakt": {
+    "title": "Kontakt i lokalizacje",
+    "description": "Telefony i adresy działów HVAC, przegród budowlanych i LED. Biuro Jasin, magazyn Bugaj."
+  },
+  "projekt": {
+    "title": "Brief Twojej inwestycji",
+    "description": "Przygotuj zapytanie do zespołu Winterwarm. Wybierz obszar, opisz obiekt i otwórz gotowy e-mail."
+  },
+  "404": {
+    "title": "Nie znaleziono strony",
+    "description": "Wróć do katalogu lub strony głównej Winterwarm."
+  }
+}
