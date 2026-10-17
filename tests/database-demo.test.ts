@@ -78,3 +78,17 @@ test("demo seed cannot run accidentally without the opt-in flag", () => {
   assert.equal(result.status, 1);
   assert.match(result.stderr, /Seed was not completed/);
 });
+
+test("server-only Supabase migration closes anonymous access to every application table", () => {
+  const sql = readFileSync(
+    "prisma/migrations/0002_server_only_access/migration.sql",
+    "utf8",
+  );
+  for (const table of ["categories", "products", "inquiries"]) {
+    assert.ok(
+      sql.includes(`ALTER TABLE public.${table} ENABLE ROW LEVEL SECURITY`),
+    );
+  }
+  assert.ok(sql.includes("FROM PUBLIC, anon, authenticated"));
+  assert.ok(!/CREATE POLICY/i.test(sql));
+});
