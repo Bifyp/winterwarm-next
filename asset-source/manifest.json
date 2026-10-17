@@ -1,0 +1,72 @@
+[
+  {
+    "source": "6720998b40c4.woff2.b64",
+    "target": "6720998b40c4.woff2",
+    "sha256": "c03775f8cc3db88cfea259b231abe13f94e6a3d3cb01c09477a2e42a1f5919e1"
+  },
+  {
+    "source": "90af675ca455.woff2.b64",
+    "target": "90af675ca455.woff2",
+    "sha256": "451376abefae9121f5dd0372d26865e7654b1041b9fdacdf57c6bd5cbf691da0"
+  },
+  {
+    "source": "a3c13f5463ab.woff2.b64",
+    "target": "a3c13f5463ab.woff2",
+    "sha256": "366c9f60de8654362826a500399e568e6198696b8fbd999ba7d0c03c9ba742b6"
+  },
+  {
+    "source": "bbd1b13edecd.woff2.b64",
+    "target": "bbd1b13edecd.woff2",
+    "sha256": "b7a672834374ef3a96e81abd2fd9bb61b282d3e75711fd4d9097e7e2e8c3b823"
+  },
+  {
+    "source": "58b1781a28d8.woff2.b64",
+    "target": "58b1781a28d8.woff2",
+    "sha256": "e9d18189973e32e2614842ca777412639245271ee5016cbbc5024b9081d686dc"
+  },
+  {
+    "source": "35db6f541289.webp.b64",
+    "target": "35db6f541289.webp",
+    "sha256": "c570e6a7fdf087419ee2196431b1dd3bc16d02f19f48b0d70b6aaf91c69fa643"
+  },
+  {
+    "source": "afdcf0067ec7.webp.b64",
+    "target": "afdcf0067ec7.webp",
+    "sha256": "f404593e6e8450b6d687ed7e1f3f827803c2aa535e6a564ae1c52ffc71952ded"
+  },
+  {
+    "source": "e5130665016f.webp.b64",
+    "target": "e5130665016f.webp",
+    "sha256": "167b2062ffe5568beb8d0568ca8d96053f62c62a77325477ce8e4c0fe3bb915f"
+  },
+  {
+    "source": "a6473e4b1a7f.webp.b64",
+    "target": "a6473e4b1a7f.webp",
+    "sha256": "4191161c72527b66bcb296c4111039771787f498c5e479b4fc30d7ef8a6c5c1e"
+  },
+  {
+    "source": "e80927706bd0.webp.b64",
+    "target": "e80927706bd0.webp",
+    "sha256": "a3f2b8de83762d54ce304a3c1deb90791d4d767486d9db68d0dd68482772881d"
+  },
+  {
+    "source": "68f44533affc.webp.b64",
+    "target": "68f44533affc.webp",
+    "sha256": "be0ade01732ee8c1c0c637e19b9b6f9245282d862f85d3daec1db40bd4573f06"
+  },
+  {
+    "source": "eb9a5f530336.webp.b64",
+    "target": "eb9a5f530336.webp",
+    "sha256": "14e536a85a9c68feead5c736d3e26096cade5efba5487ee91ea6afe17fd04987"
+  },
+  {
+    "source": "7df5b3d3ea99.webp.b64",
+    "target": "7df5b3d3ea99.webp",
+    "sha256": "eef574281a542e1ebfc31ae2e859ca531382795ae83bad94d9531ca0c76f18f5"
+  },
+  {
+    "source": "c4fd4094fa3d.webp.b64",
+    "target": "c4fd4094fa3d.webp",
+    "sha256": "17f38fe82d4c2c9821c5265f3e76c9cc922ec53783089cfe96728e80939a5a8a"
+  }
+]
