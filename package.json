@@ -15,9 +15,17 @@
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test tests/*.test.ts",
     "test:e2e": "playwright test",
-    "check": "npm run typecheck && npm test"
+    "check": "npm run typecheck && npm test",
+    "postinstall": "prisma generate",
+    "db:validate": "node --env-file-if-exists=.env.local node_modules/prisma/build/index.js validate",
+    "db:generate": "node --env-file-if-exists=.env.local node_modules/prisma/build/index.js generate",
+    "db:migrate": "node --env-file-if-exists=.env.local scripts/db-migrate.mjs",
+    "db:seed": "node --env-file-if-exists=.env.local --import tsx prisma/seed.ts",
+    "db:seed:preview": "node --import tsx prisma/seed.ts --dry-run"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "7.10.1",
+    "@prisma/client": "7.10.1",
     "next": "16.4.2",
     "react": "19.2.6",
     "react-dom": "19.2.6",
@@ -26,8 +34,11 @@
   "devDependencies": {
     "@playwright/test": "1.64.1",
     "@types/node": "26.6.5",
+    "@types/pg": "8.23.1",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
+    "pg": "8.23.1",
+    "prisma": "7.10.1",
     "tsx": "4.23.15",
     "typescript": "7.0.2"
   }
