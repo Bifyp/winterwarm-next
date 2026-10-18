@@ -1,5 +1,7 @@
 import Chrome, { Motion } from "./chrome";
 import data from "@/content/site-data.json";
+import DemoGate from "./demo-gate";
+import PhotoSourceLinks from "./photo-source-links";
 export default function Frame({
   slug,
   children,
@@ -9,6 +11,7 @@ export default function Frame({
 }) {
   return (
     <div className={slug === "index" ? "home" : "inner"} data-page={slug}>
+      <DemoGate />
       <Chrome slug={slug} />
       <main id="main">{children}</main>
       <footer className="footer wrap">
@@ -65,6 +68,7 @@ export default function Frame({
         </div>
       </footer>
       <Motion />
+      <PhotoSourceLinks />
     </div>
   );
 }

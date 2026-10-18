@@ -1,4 +1,14 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
+
+async function openDemo(page: Page, path: string) {
+  const response = await page.goto(path);
+  await expect(page.locator("#demo-gate")).toBeVisible();
+  await page
+    .getByRole("button", { name: "Rozumiem — przejdź do demonstracji" })
+    .click();
+  await expect(page.locator("#demo-gate")).not.toBeVisible();
+  return response;
+}
 const paths = [
   "/",
   "/rozwiazania",
@@ -22,7 +32,7 @@ for (const width of [1440, 768, 390])
       await page.setViewportSize({ width, height: 960 });
       const errors: string[] = [];
       page.on("pageerror", (e) => errors.push(e.message));
-      const r = await page.goto(path);
+      const r = await openDemo(page, path);
       await page.waitForLoadState("networkidle");
       expect(r?.status()).toBe(200);
       expect(await page.locator("h1").count()).toBe(1);
@@ -52,7 +62,7 @@ for (const width of [1440, 768, 390])
     });
   }
 test("catalog filters, empty state and URL", async ({ page }) => {
-  await page.goto("/produkty?obszar=LED");
+  await openDemo(page, "/produkty?obszar=LED");
   await expect(page.locator(".catalog-item")).toHaveCount(7);
   await page.fill("#catalog-search", "Skyline");
   await expect(page.locator(".catalog-item")).toHaveCount(2);
@@ -62,7 +72,7 @@ test("catalog filters, empty state and URL", async ({ page }) => {
   await expect(page.locator(".catalog-item")).toHaveCount(22);
 });
 test("solution tabs support keyboard", async ({ page }) => {
-  await page.goto("/");
+  await openDemo(page, "/");
   await page.locator("#tab-climate").focus();
   await page.keyboard.press("ArrowRight");
   await expect(page.locator("#tab-access")).toHaveAttribute(
@@ -72,7 +82,7 @@ test("solution tabs support keyboard", async ({ page }) => {
   await expect(page.locator("#solution-title")).toContainText("Swobodny ruch.");
 });
 test("search dialog opens and escapes to trigger", async ({ page }) => {
-  await page.goto("/");
+  await openDemo(page, "/");
   const button = page.getByRole("button", { name: "Szukaj w serwisie" });
   await button.click();
   await page.fill("#site-query", "Skyline");
@@ -83,7 +93,7 @@ test("search dialog opens and escapes to trigger", async ({ page }) => {
 });
 test("mobile menu sets inert and Escape restores", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 900 });
-  await page.goto("/");
+  await openDemo(page, "/");
   await page.getByRole("button", { name: "Menu +" }).click();
   await expect(page.locator("#navigation")).toBeVisible();
   expect(
@@ -96,7 +106,7 @@ test("mobile menu sets inert and Escape restores", async ({ page }) => {
   ).toBe(false);
 });
 test("brief prefill and honest mail fallback", async ({ page }) => {
-  await page.goto("/projekt?obszar=LED");
+  await openDemo(page, "/projekt?obszar=LED");
   await expect(page.locator("input[name=need][value=LED]")).toBeChecked();
   await page.getByRole("button", { name: "Przygotuj wiadomość" }).click();
   await expect(page.locator("#project-summary")).toContainText("LED");
@@ -107,7 +117,7 @@ test("brief prefill and honest mail fallback", async ({ page }) => {
   await expect(page.locator("#project-result")).toContainText("nie wysyła");
 });
 test("404 and legacy redirects", async ({ page, request }) => {
-  const r = await page.goto("/does-not-exist");
+  const r = await openDemo(page, "/does-not-exist");
   expect(r?.status()).toBe(404);
   await expect(page.locator("h1")).toContainText("nie istnieje");
   const old = await request.get("/hvac.html", { maxRedirects: 0 });
@@ -142,7 +152,7 @@ test("preview is noindex and security headers exist", async ({ request }) => {
 });
 
 test("catalog shows one honest photograph per area", async ({ page }) => {
-  await page.goto("/produkty");
+  await openDemo(page, "/produkty");
   for (const id of ["xr", "gates", "sky"])
     await expect(page.locator("#" + id + " .catalog-picture")).toBeVisible();
   expect(await page.locator(".catalog-picture:visible").count()).toBe(3);
@@ -154,7 +164,7 @@ test("demo attribution, accurate photo credit and home caption cleanup", async (
   await page.emulateMedia({ reducedMotion: "reduce" });
   for (const width of [1440, 768, 390]) {
     await page.setViewportSize({ width, height: 960 });
-    await page.goto("/");
+    await openDemo(page, "/");
     await expect(page.locator(".caption-ai")).toHaveCount(0);
     await expect(
       page.locator(".footer-bottom a[href='https://winterwarm.pl/']"),
@@ -183,7 +193,7 @@ test("hero title does not overlap its description during entrance animation", as
   for (const width of [768, 390]) {
     await page.setViewportSize({ width, height: 960 });
     await page.emulateMedia({ reducedMotion: "no-preference" });
-    await page.goto("/");
+    await openDemo(page, "/");
     await page.evaluate(() => document.fonts.ready);
     for (let i = 0; i < 5; i++) {
       const separated = await page.evaluate(() => {
@@ -199,4 +209,169 @@ test("hero title does not overlap its description during entrance animation", as
       await page.waitForTimeout(100);
     }
   }
+});
+
+test("demo warning is shown again on every route visit and reload", async ({
+  page,
+}) => {
+  for (const path of ["/", "/produkty", "/projekt", "/does-not-exist"]) {
+    await page.goto(path);
+    const gate = page.getByRole("dialog", {
+      name: "To jest wersja demonstracyjna.",
+    });
+    await expect(gate).toBeVisible();
+    await expect(gate).toContainText("Bohdan Mykytenko");
+    await expect(gate).toContainText("Marian Poliakov");
+    await expect(gate).toContainText("Nie wpisuj prawdziwych danych osobowych");
+    await page
+      .getByRole("button", { name: "Rozumiem — przejdź do demonstracji" })
+      .click();
+    await expect(gate).not.toBeVisible();
+    await page.reload();
+    await expect(gate).toBeVisible();
+    await page
+      .getByRole("button", { name: "Rozumiem — przejdź do demonstracji" })
+      .click();
+  }
+});
+
+test("demo warning requires acknowledgement and restores keyboard access", async ({
+  page,
+}) => {
+  await page.goto("/");
+  const gate = page.locator("#demo-gate");
+  await expect(gate).toBeVisible();
+  await page.keyboard.press("Escape");
+  await expect(gate).toBeVisible();
+  expect(await gate.evaluate((el) => el.matches(":modal"))).toBe(true);
+  await page.keyboard.press("Tab");
+  expect(await gate.evaluate((el) => el.contains(document.activeElement))).toBe(
+    true,
+  );
+  await page
+    .getByRole("button", { name: "Rozumiem — przejdź do demonstracji" })
+    .click();
+  await expect(gate).not.toBeVisible();
+  await expect(page.locator("main")).toBeFocused();
+  expect(
+    await page.evaluate(() => document.documentElement.style.overflow),
+  ).toBe("");
+  await page.getByRole("button", { name: "Szukaj w serwisie" }).click();
+  await expect(page.locator("#site-search")).toBeVisible();
+});
+
+test("demo warning is readable and scrollable on every screen size", async ({
+  page,
+}) => {
+  for (const [width, height] of [
+    [1440, 960],
+    [768, 960],
+    [390, 960],
+    [320, 640],
+  ]) {
+    await page.setViewportSize({ width, height });
+    await page.goto("/");
+    const gate = page.locator("#demo-gate");
+    await expect(gate).toBeVisible();
+    await expect(page.locator("#demo-gate-title")).toBeInViewport();
+    expect(
+      await page
+        .locator("#demo-gate-title")
+        .evaluate((el) => getComputedStyle(el).outlineStyle),
+    ).toBe("none");
+    await page.screenshot({ path: `qa/demo-gate-${width}.png` });
+    expect(
+      await gate.evaluate((el) => el.scrollWidth <= el.clientWidth + 1),
+    ).toBe(true);
+    const button = page.getByRole("button", {
+      name: "Rozumiem — przejdź do demonstracji",
+    });
+    await button.scrollIntoViewIfNeeded();
+    await page.screenshot({ path: `qa/demo-gate-${width}-action.png` });
+    await button.click();
+    await expect(gate).not.toBeVisible();
+  }
+});
+
+test("visible photographs have clickable links to their actual originals", async ({
+  page,
+}) => {
+  for (const width of [1440, 390]) {
+    await page.setViewportSize({ width, height: 960 });
+    for (const [path, src, href] of [
+      ["/", "/assets/35db6f541289.webp", "/assets/35db6f541289.webp"],
+      [
+        "/hvac",
+        "/assets/afdcf0067ec7.webp",
+        "https://winterwarm.pl/wp-content/uploads/2024/11/image-15-1.png",
+      ],
+      [
+        "/produkty",
+        "/assets/e5130665016f.webp",
+        "https://winterwarm.pl/wp-content/uploads/2026/10/xr30-bez-tla.png",
+      ],
+      [
+        "/realizacje",
+        "/assets/e80927706bd0.webp",
+        "https://winterwarm.pl/wp-content/uploads/2024/11/image-22.png",
+      ],
+    ]) {
+      await openDemo(page, path);
+      await page.emulateMedia({ reducedMotion: "reduce" });
+      const image = page.locator(`main img[src="${src}"]`).first();
+      await image.scrollIntoViewIfNeeded();
+      const link = page
+        .locator(`.photo-source-link[data-photo-src="${src}"]`)
+        .first();
+      await expect(link).toBeVisible();
+      await expect(link).toHaveAttribute("href", href);
+      await expect(link).toHaveAttribute("target", "_blank");
+      expect(
+        await link.evaluate((el) => {
+          const box = el.getBoundingClientRect();
+          return (
+            document.elementFromPoint(
+              box.x + box.width / 2,
+              box.y + box.height / 2,
+            ) === el
+          );
+        }),
+      ).toBe(true);
+      expect(await page.locator("a a").count()).toBe(0);
+      await page.screenshot({
+        path: `qa/photo-sources-${path.replaceAll("/", "") || "home"}-${width}.png`,
+      });
+    }
+  }
+});
+
+test("photo source links follow changing solution photographs and hide behind notices", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await expect(page.locator("#demo-gate")).toBeVisible();
+  await expect(page.locator(".photo-source-link")).toHaveCount(0);
+  await page
+    .getByRole("button", { name: "Rozumiem — przejdź do demonstracji" })
+    .click();
+  await page.locator("#tab-access").click();
+  await page.locator("#solution-photo").scrollIntoViewIfNeeded();
+  await expect(
+    page
+      .locator('.photo-source-link[data-photo-src="/assets/7df5b3d3ea99.webp"]')
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://winterwarm.pl/wp-content/uploads/2025/09/2.png",
+  );
+  await page.locator("#tab-light").click();
+  await page.locator("#solution-photo").scrollIntoViewIfNeeded();
+  await expect(
+    page
+      .locator('.photo-source-link[data-photo-src="/assets/c4fd4094fa3d.webp"]')
+      .first(),
+  ).toHaveAttribute(
+    "href",
+    "https://winterwarm.pl/wp-content/uploads/2025/09/1.png",
+  );
 });
