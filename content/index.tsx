@@ -17,6 +17,8 @@ export default function Content() {
           <img
             alt="Koncepcyjna wizualizacja hali przemysłowej z instalacjami i oświetleniem"
             height="672"
+            fetchPriority="high"
+            decoding="async"
             src="/assets/35db6f541289.webp"
             width="1584"
           />
@@ -61,11 +63,6 @@ export default function Content() {
             {"Od doradztwa i projektu"}
             <br />
             {"po montaż i serwis."}
-          </p>
-          <p className="caption-ai">
-            {"Wizualizacja koncepcyjna"}
-            <br />
-            {"Ilustracja wygenerowana z AI"}
           </p>
         </div>
       </section>

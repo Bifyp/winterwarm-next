@@ -53,10 +53,11 @@ export default function Frame({
         </a>
         <div className="footer-bottom">
           <p>
-            Winterwarm Polska. Zdjęcia i dane: materiały firmy.
-            <br />
-            Scena na stronie głównej: wizualizacja AI, nie fotografia
-            realizacji.
+            Zdjęcia produktów i realizacji: materiały ze strony{" "}
+            <a className="link" href="https://winterwarm.pl/">
+              Winterwarm Polska
+            </a>
+            .
           </p>
           <a className="plain-button" href="/prywatnosc">
             Prywatność formularza

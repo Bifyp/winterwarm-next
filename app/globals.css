@@ -1148,9 +1148,11 @@ html.no-scroll {
 }
 @keyframes hero-rise {
   from {
-    transform: translateY(110%);
+    opacity: 0;
+    transform: translateY(0.12em);
   }
   to {
+    opacity: 1;
     transform: translateY(0);
   }
 }

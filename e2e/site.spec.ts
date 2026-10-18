@@ -26,6 +26,14 @@ for (const width of [1440, 768, 390])
       await page.waitForLoadState("networkidle");
       expect(r?.status()).toBe(200);
       expect(await page.locator("h1").count()).toBe(1);
+      await expect(page.locator("header .demo-notice")).toBeVisible();
+      await expect(page.locator("header .demo-notice")).toContainText(
+        "Bohdan Mykytenko i Marian Poliakov",
+      );
+      await expect(page.locator(".footer-bottom")).toContainText(
+        "Zdjęcia produktów i realizacji: materiały ze strony",
+      );
+      await expect(page.locator(".footer-bottom")).not.toContainText("AI");
       await expect(page.locator("html")).toHaveAttribute("lang", "pl");
       expect(
         await page.evaluate(
@@ -106,9 +114,9 @@ test("404 and legacy redirects", async ({ page, request }) => {
   expect(old.status()).toBe(308);
   expect(old.headers().location).toBe("/hvac");
 });
-test("server API fails closed before setup", async ({ request }) => {
+test("server API fails closed before setup", async ({ request, baseURL }) => {
   const r = await request.post("/api/contact", {
-    headers: { Origin: "http://127.0.0.1:3000" },
+    headers: { Origin: new URL(baseURL!).origin },
     data: {
       needs: ["HVAC"],
       object: "Hala magazynowa",
@@ -138,4 +146,57 @@ test("catalog shows one honest photograph per area", async ({ page }) => {
   for (const id of ["xr", "gates", "sky"])
     await expect(page.locator("#" + id + " .catalog-picture")).toBeVisible();
   expect(await page.locator(".catalog-picture:visible").count()).toBe(3);
+});
+
+test("demo attribution, accurate photo credit and home caption cleanup", async ({
+  page,
+}) => {
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  for (const width of [1440, 768, 390]) {
+    await page.setViewportSize({ width, height: 960 });
+    await page.goto("/");
+    await expect(page.locator(".caption-ai")).toHaveCount(0);
+    await expect(
+      page.locator(".footer-bottom a[href='https://winterwarm.pl/']"),
+    ).toBeVisible();
+    const geometry = await page.evaluate(() => {
+      const notice = document
+        .querySelector(".demo-notice")!
+        .getBoundingClientRect();
+      const nav = document.querySelector(".header")!.getBoundingClientRect();
+      return (
+        notice.bottom <= nav.top + 1 &&
+        document.documentElement.scrollWidth <= innerWidth + 1
+      );
+    });
+    expect(geometry).toBeTruthy();
+    await page.screenshot({
+      path: `qa/demo-live-home-${width}.png`,
+      fullPage: true,
+    });
+  }
+});
+
+test("hero title does not overlap its description during entrance animation", async ({
+  page,
+}) => {
+  for (const width of [768, 390]) {
+    await page.setViewportSize({ width, height: 960 });
+    await page.emulateMedia({ reducedMotion: "no-preference" });
+    await page.goto("/");
+    await page.evaluate(() => document.fonts.ready);
+    for (let i = 0; i < 5; i++) {
+      const separated = await page.evaluate(() => {
+        const title = document
+          .querySelector(".hero-title-line:nth-child(2) > span")!
+          .getBoundingClientRect();
+        const description = document
+          .querySelector(".hero-description")!
+          .getBoundingClientRect();
+        return title.bottom <= description.top + 1;
+      });
+      expect(separated).toBeTruthy();
+      await page.waitForTimeout(100);
+    }
+  }
 });
