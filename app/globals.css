@@ -4286,3 +4286,60 @@ legend {
 .result-actions {
   flex-wrap: wrap;
 }
+
+/* Demo attribution is part of the shared header on every route. */
+.site-header {
+  --demo-notice-height: 40px;
+  --navigation-height: 108px;
+  position: relative;
+  z-index: 10;
+}
+.home .site-header {
+  position: absolute;
+  inset: 0 0 auto;
+}
+.site-header .header {
+  position: relative;
+}
+.demo-notice {
+  height: var(--demo-notice-height);
+  padding: 8px var(--g);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 16px;
+  background: #f8cda9;
+  color: #071623;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.demo-notice strong {
+  font-weight: 700;
+}
+.demo-authors {
+  font-weight: 500;
+}
+@media (max-width: 900px) {
+  .site-header {
+    --navigation-height: 90px;
+  }
+  .site-header .header .nav {
+    max-height: calc(
+      100svh - var(--navigation-height) - var(--demo-notice-height)
+    );
+  }
+}
+@media (max-width: 560px) {
+  .site-header {
+    --demo-notice-height: 64px;
+    --navigation-height: 80px;
+  }
+  .demo-notice {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .site-header .header .nav.open {
+    height: calc(100dvh - var(--navigation-height) - var(--demo-notice-height));
+  }
+}

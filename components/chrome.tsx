@@ -87,60 +87,68 @@ export default function Chrome({ slug }: { slug: string }) {
       <a className="skip" href="#main">
         Przejdź do treści
       </a>
-      <header className="header wrap">
-        <a href="/" aria-label="Winterwarm, strona główna">
-          <img className="logo" src={data.assets.logo} alt="Winterwarm" />
-        </a>
-        <nav
-          className={"nav" + (menu ? " open" : "")}
-          id="navigation"
-          aria-label="Nawigacja główna"
-        >
-          {nav.map(([u, n]) => (
-            <a
-              key={u}
-              href={u}
-              aria-current={u === "/" + slug ? "page" : undefined}
-            >
-              {n}
+      <header className="site-header">
+        <div className="demo-notice">
+          <strong>Wersja demonstracyjna</strong>
+          <span className="demo-authors">
+            Bohdan Mykytenko i Marian Poliakov
+          </span>
+        </div>
+        <div className="header wrap">
+          <a href="/" aria-label="Winterwarm, strona główna">
+            <img className="logo" src={data.assets.logo} alt="Winterwarm" />
+          </a>
+          <nav
+            className={"nav" + (menu ? " open" : "")}
+            id="navigation"
+            aria-label="Nawigacja główna"
+          >
+            {nav.map(([u, n]) => (
+              <a
+                key={u}
+                href={u}
+                aria-current={u === "/" + slug ? "page" : undefined}
+              >
+                {n}
+              </a>
+            ))}
+            <a className="btn menu-brief" href="/projekt">
+              Zacznij projekt ↗
             </a>
-          ))}
-          <a className="btn menu-brief" href="/projekt">
-            Zacznij projekt ↗
-          </a>
-        </nav>
-        <div className="header-actions">
-          <button
-            className="search-open"
-            aria-label="Szukaj w serwisie"
-            title="Szukaj"
-            onClick={(e) => open(search, e.currentTarget)}
-          >
-            <svg
-              viewBox="0 0 24 24"
-              width="23"
-              height="23"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.8"
-              aria-hidden="true"
+          </nav>
+          <div className="header-actions">
+            <button
+              className="search-open"
+              aria-label="Szukaj w serwisie"
+              title="Szukaj"
+              onClick={(e) => open(search, e.currentTarget)}
             >
-              <circle cx="10.5" cy="10.5" r="6.5" />
-              <path d="m16 16 5 5" />
-            </svg>
-          </button>
-          <a className="header-contact" href="/projekt">
-            Zacznij projekt<span aria-hidden="true">↗</span>
-          </a>
-          <button
-            ref={menuButton}
-            className="mobile-menu"
-            aria-controls="navigation"
-            aria-expanded={menu}
-            onClick={() => setMenu(!menu)}
-          >
-            {menu ? "Zamknij −" : "Menu +"}
-          </button>
+              <svg
+                viewBox="0 0 24 24"
+                width="23"
+                height="23"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                aria-hidden="true"
+              >
+                <circle cx="10.5" cy="10.5" r="6.5" />
+                <path d="m16 16 5 5" />
+              </svg>
+            </button>
+            <a className="header-contact" href="/projekt">
+              Zacznij projekt<span aria-hidden="true">↗</span>
+            </a>
+            <button
+              ref={menuButton}
+              className="mobile-menu"
+              aria-controls="navigation"
+              aria-expanded={menu}
+              onClick={() => setMenu(!menu)}
+            >
+              {menu ? "Zamknij −" : "Menu +"}
+            </button>
+          </div>
         </div>
       </header>
       <dialog
