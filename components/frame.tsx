@@ -56,11 +56,8 @@ export default function Frame({
         </a>
         <div className="footer-bottom">
           <p>
-            Zdjęcia produktów i realizacji: materiały ze strony{" "}
-            <a className="link" href="https://winterwarm.pl/">
-              Winterwarm Polska
-            </a>
-            .
+            Ilustracje wygenerowane przy użyciu AI. Nie przedstawiają
+            rzeczywistych produktów, zespołu ani realizacji firmy.
           </p>
           <a className="plain-button" href="/prywatnosc">
             Prywatność formularza

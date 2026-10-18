@@ -32,11 +32,11 @@ export default function Content() {
         </div>
         <figure className="inner-image" data-reveal="">
           <img
-            alt="Zespół Winterwarm Polska na oryginalnej fotografii"
+            alt="Koncepcyjne biuro techniczne — ilustracja AI, nie siedziba firmy"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/eb9a5f530336.webp"
+            src="/assets/ai-office-v1.webp"
           />
         </figure>
       </section>
@@ -145,33 +145,33 @@ export default function Content() {
         </div>
         <a className="related-row" data-reveal="" href="/hvac">
           <img
-            alt="Nagrzewnice w hali przemysłowej"
+            alt="Koncepcyjna hala z ogrzewaniem — ilustracja AI"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/afdcf0067ec7.webp"
+            src="/assets/ai-workshop-v1.webp"
           />
           <h3>{"HVAC"}</h3>
           <span aria-hidden="true">{"↗"}</span>
         </a>
         <a className="related-row" data-reveal="" href="/drzwi-bramy">
           <img
-            alt="Brama przemysłowa z oferty Winterwarm"
+            alt="Koncepcyjne bramy przemysłowe — ilustracja AI"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/7df5b3d3ea99.webp"
+            src="/assets/ai-doors-v1.webp"
           />
           <h3>{"Drzwi i bramy"}</h3>
           <span aria-hidden="true">{"↗"}</span>
         </a>
         <a className="related-row" data-reveal="" href="/oswietlenie">
           <img
-            alt="Oświetlenie hali z oferty Winterwarm"
+            alt="Koncepcyjna hala z oświetleniem LED — ilustracja AI, nie zdjęcie modelu Skyline"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/c4fd4094fa3d.webp"
+            src="/assets/ai-lighting-v1.webp"
           />
           <h3>{"Oświetlenie LED"}</h3>
           <span aria-hidden="true">{"↗"}</span>

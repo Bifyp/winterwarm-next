@@ -14,23 +14,23 @@ External catalog destinations were taken from these sources. Not every external 
 
 ## Asset provenance
 
-All company imagery and the wordmark remain the property of their respective rights holders. Their public availability does not itself grant redistribution rights. Reused for this commissioned website concept; the owner must confirm permission before public publication. No open-license stock images or archive footage were used, so no fictitious creator/license attribution has been added.
+All nine content images were replaced with original AI-generated concept illustrations at the user's request. No company product, team or installation photographs remain in the content image set. These fictional scenes are not evidence of actual projects, company premises or the appearance of a named product. The generic heater does not depict an XR+ model, and generic lighting does not depict a Skyline model.
 
-| Local asset                | Original material                                                            | Use                                                                                                                                            |
-| -------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| `assets/5ee714917810.svg`  | https://winterwarm.pl/wp-content/uploads/2025/01/logo_winterwarm_footer.svg  | Company wordmark, white treatment retained from approved v3                                                                                    |
-| `assets/e5130665016f.webp` | https://winterwarm.pl/wp-content/uploads/2026/10/xr30-bez-tla.png            | Genuine XR+ product cutout                                                                                                                     |
-| `assets/eb9a5f530336.webp` | https://winterwarm.pl/wp-content/uploads/2026/03/DSC4229-Edytuj-1536x929.jpg | Genuine company team photograph                                                                                                                |
-| `assets/68f44533affc.webp` | https://winterwarm.pl/wp-content/uploads/2024/11/image-1.png                 | Showroom interior presented by the company; no client identity or project results inferred                                                     |
-| `assets/afdcf0067ec7.webp` | https://winterwarm.pl/wp-content/uploads/2024/11/image-15-1.png              | Industrial HVAC installation                                                                                                                   |
-| `assets/e80927706bd0.webp` | https://winterwarm.pl/wp-content/uploads/2024/11/image-22.png                | Warehouse installation                                                                                                                         |
-| `assets/7df5b3d3ea99.webp` | https://winterwarm.pl/wp-content/uploads/2025/09/2.png                       | Access-category image, cropped to remove its decorative frame; representative, not every listed model                                          |
-| `assets/c4fd4094fa3d.webp` | https://winterwarm.pl/wp-content/uploads/2025/09/1.png                       | LED-category image, cropped to remove its decorative frame; representative, not every listed model                                             |
-| `assets/a6473e4b1a7f.webp` | https://winterwarm.pl/wp-content/uploads/2024/11/render.jpg                  | Original building diagram; source numerals/signage are retained, not invented project proof                                                    |
-| `assets/35db6f541289.webp` | AI-generated architectural scene from approved v2/v3                         | Concept illustration, not a real completed project. The visible original-file link is labeled “Ilustracja”; it is not attributed to Winterwarm |
-| `assets/favicon.svg`       | Code-native geometric favicon based on the brand's circular mark             | Layout/brand identifier, not a product illustration                                                                                            |
+The company wordmark (`assets/5ee714917810.svg`) is unchanged and remains subject to its rights holder's permission. Replacing photographs does not resolve trademark or other rights issues.
 
-Local WebP images are optimized versions of the prior approved site's assets. A representative installation photograph on the Skyline page is **not** claimed to show the specific Skyline variant. No fabricated CAD image was substituted for a missing product shot. A genuine high-resolution Skyline product photograph would improve the final production version.
+| Local image                   | Subject                                                                         |
+| ----------------------------- | ------------------------------------------------------------------------------- |
+| `assets/ai-hero-v1.webp`      | Koncepcyjna hala przemysłowa z ogrzewaniem — ilustracja AI                      |
+| `assets/ai-heater-v1.webp`    | Koncepcyjna nagrzewnica bez marki — ilustracja AI, nie zdjęcie modelu XR+       |
+| `assets/ai-office-v1.webp`    | Koncepcyjne biuro techniczne — ilustracja AI, nie siedziba firmy                |
+| `assets/ai-showroom-v1.webp`  | Koncepcyjny salon samochodowy — ilustracja AI                                   |
+| `assets/ai-workshop-v1.webp`  | Koncepcyjna hala z ogrzewaniem — ilustracja AI                                  |
+| `assets/ai-warehouse-v1.webp` | Koncepcyjny magazyn z instalacjami — ilustracja AI                              |
+| `assets/ai-doors-v1.webp`     | Koncepcyjne bramy przemysłowe — ilustracja AI                                   |
+| `assets/ai-lighting-v1.webp`  | Koncepcyjna hala z oświetleniem LED — ilustracja AI, nie zdjęcie modelu Skyline |
+| `assets/ai-building-v1.webp`  | Koncepcyjny przekrój budynku przemysłowego — ilustracja AI                      |
+
+Images are optimized as WebP, embedded in `asset-source/*.b64`, verified by SHA-256 during the build, and restored under fresh filenames to avoid serving cached old photographs. Historical base64 source filenames are retained for transport only; their content is now generated artwork.
 
 ## Fonts and code
 
@@ -42,10 +42,6 @@ The updated design skill is a development tool, not part of the delivered browse
 
 No customer testimonials, named client contracts, savings figures, certifications beyond attributed product facts, prices, availability, engineering sizing results or successful form submissions have been fabricated. The site does not calculate a required heater power from floor area. No emails were sent during testing.
 
-## Visible source links
+## Visible illustration links
 
-`lib/photo-sources.ts` maps every content image to its exact source file. Original files on winterwarm.pl returned HTTP 200 during verification. XR+ transparency and the cropped decorative frames in access/LED category images were taken into account when comparing originals with local optimized copies.
-
-Visible photographs have a keyboard-accessible “Źródło” link over the image. Links open the original file in a new tab with `noopener noreferrer`. The local concept scene links to its own file as “Ilustracja”, never to a company original that does not exist. The wordmark is a logo, not a photograph, and is excluded from photo overlays.
-
-Source badges track scrolling, responsive layout, clipping, and dynamically selected photographs. They are hidden while modal notices/search or the mobile menu are open, to avoid obscuring controls. Source credits document provenance, not permission to reuse materials.
+`lib/photo-sources.ts` maps every content image to its displayed local AI-generated file. Keyboard-accessible “Ilustracja AI” badges open that exact file in a new tab with `noopener noreferrer`; none links to or implies a company original. They track clipping, scrolling and dynamic image selection and hide behind modal dialogs and the mobile menu. The footer, per-visit warning and gallery explicitly disclose fictional AI imagery.

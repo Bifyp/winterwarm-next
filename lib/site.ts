@@ -22,7 +22,12 @@ export function metadataFor(slug: keyof typeof pages): Metadata {
       url: path,
       type: "website",
       locale: "pl_PL",
-      images: [{ url: "/assets/35db6f541289.webp", alt: "Winterwarm Polska" }],
+      images: [
+        {
+          url: "/assets/ai-hero-v1.webp",
+          alt: "Koncepcyjna hala przemysłowa — ilustracja AI",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",

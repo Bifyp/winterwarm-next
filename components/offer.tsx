@@ -13,7 +13,7 @@ const areas = [
       "Urządzenia wspomagające",
     ],
     image: data.assets.hall,
-    alt: "Nagrzewnice zamontowane w hali, fotografia Winterwarm",
+    alt: "Koncepcyjna hala z ogrzewaniem — ilustracja AI",
     stamp: "HVAC dla obiektów przemysłowych",
     url: "/hvac",
     action: "Poznaj ofertę HVAC",
@@ -30,7 +30,7 @@ const areas = [
       "Ochrona przeciwpożarowa i oddymianie",
     ],
     image: data.assets.doors,
-    alt: "Brama przemysłowa z oferty Winterwarm",
+    alt: "Koncepcyjne bramy przemysłowe — ilustracja AI",
     stamp: "Drzwi, bramy i strefy przeładunku",
     url: "/drzwi-bramy",
     action: "Poznaj drzwi i bramy",
@@ -47,7 +47,7 @@ const areas = [
       "Prefab i Bandraster",
     ],
     image: data.assets.led,
-    alt: "Oświetlenie LED w hali, fotografia z oferty Winterwarm",
+    alt: "Koncepcyjna hala z oświetleniem LED — ilustracja AI",
     stamp: "Światło dla przestrzeni pracy",
     url: "/oswietlenie",
     action: "Poznaj oświetlenie LED",
@@ -163,7 +163,7 @@ export function Explorer() {
         <div className="building-canvas">
           <img
             src={data.assets.building}
-            alt="Schemat rozwiązań technicznych w budynku z materiałów Winterwarm"
+            alt="Koncepcyjny przekrój budynku — ilustracja AI"
             width={1500}
             height={1000}
           />
@@ -213,7 +213,7 @@ export function Explorer() {
             Omów swój obiekt ↗
           </a>
           <p className="explorer-note">
-            Schemat poglądowy z materiałów Winterwarm. Dobór techniczny wymaga
+            Koncepcyjna ilustracja AI, nie projekt techniczny. Dobór wymaga
             indywidualnej analizy.
           </p>
         </div>
@@ -249,7 +249,7 @@ export function ObjectPicker() {
       <div className="object-result" aria-live="polite">
         <img
           src={data.assets[image as keyof typeof data.assets]}
-          alt={"Fotografia obszaru zastosowania: " + name}
+          alt={"Ilustracja AI obszaru zastosowania: " + name}
         />
         <div>
           <h3>{name}</h3>
@@ -348,9 +348,7 @@ export function Catalog() {
               <img
                 src={c.image}
                 alt={
-                  c.name === "Winterwarm XR+"
-                    ? c.name
-                    : "Fotografia obszaru oferty: " + c.area
+                  "Ilustracja AI, nie zdjęcie konkretnego produktu: " + c.area
                 }
                 loading="lazy"
               />

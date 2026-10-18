@@ -19,18 +19,18 @@ export default function Content() {
         </h1>
         <p data-reveal="">
           {
-            "Wybrane fotografie obiektów i instalacji z materiałów Winterwarm. Zobacz technologie w przestrzeniach przemysłowych i handlowych."
+            "Galeria ilustracji wygenerowanych przy użyciu AI. Przedstawione obiekty i instalacje są fikcyjne — nie są realizacjami Winterwarm."
           }
         </p>
       </section>
       <section className="wrap work-gallery">
         <figure data-reveal="">
           <img
-            alt="Instalacja grzewcza w magazynie z materiałów Winterwarm"
+            alt="Koncepcyjny magazyn z instalacjami — ilustracja AI"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/e80927706bd0.webp"
+            src="/assets/ai-warehouse-v1.webp"
           />
           <figcaption>
             <h2>{"Hale i magazyny"}</h2>
@@ -42,11 +42,11 @@ export default function Content() {
         </figure>
         <figure data-reveal="">
           <img
-            alt="Wnętrze salonu samochodowego z materiałów Winterwarm"
+            alt="Koncepcyjny salon samochodowy — ilustracja AI"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/68f44533affc.webp"
+            src="/assets/ai-showroom-v1.webp"
           />
           <figcaption>
             <h2>{"Przestrzenie handlowe"}</h2>
@@ -58,11 +58,11 @@ export default function Content() {
         </figure>
         <figure data-reveal="">
           <img
-            alt="Nagrzewnice zamontowane w hali przemysłowej"
+            alt="Koncepcyjna hala z ogrzewaniem — ilustracja AI"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/afdcf0067ec7.webp"
+            src="/assets/ai-workshop-v1.webp"
           />
           <figcaption>
             <h2>{"Produkcja"}</h2>
@@ -74,11 +74,11 @@ export default function Content() {
         </figure>
         <figure data-reveal="">
           <img
-            alt="Brama przemysłowa z oferty Winterwarm"
+            alt="Koncepcyjne bramy przemysłowe — ilustracja AI"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/7df5b3d3ea99.webp"
+            src="/assets/ai-doors-v1.webp"
           />
           <figcaption>
             <h2>{"Strefy dostępu"}</h2>

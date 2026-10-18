@@ -11,15 +11,11 @@ test("every content image has an explicit source, excluding company wordmark", (
   for (const image of data.catalog.map((item) => item.image))
     assert.ok(photoSources[image]);
 });
-test("only real company images claim a Winterwarm original", () => {
+test("all content images are explicitly AI illustrations linked to their own file", () => {
+  assert.equal(Object.keys(photoSources).length, 9);
   for (const [src, source] of Object.entries(photoSources)) {
-    if (src === data.assets.hero) {
-      assert.equal(source.href, src);
-      assert.equal(source.label, "Ilustracja ↗");
-    } else {
-      const url = new URL(source.href);
-      assert.equal(url.origin, "https://winterwarm.pl");
-      assert.ok(url.pathname.startsWith("/wp-content/uploads/"));
-    }
+    assert.equal(source.href, src);
+    assert.equal(source.label, "Ilustracja AI ↗");
+    assert.match(src, /^\/assets\/ai-[a-z]+-v1\.webp$/);
   }
 });

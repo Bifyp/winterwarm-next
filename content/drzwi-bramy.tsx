@@ -31,11 +31,11 @@ export default function Content() {
         </div>
         <figure className="inner-image" data-reveal="">
           <img
-            alt="Brama przemysłowa z oferty Winterwarm"
+            alt="Koncepcyjne bramy przemysłowe — ilustracja AI"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/7df5b3d3ea99.webp"
+            src="/assets/ai-doors-v1.webp"
           />
         </figure>
       </section>
@@ -81,11 +81,11 @@ export default function Content() {
       </section>
       <section className="wrap section feature-split">
         <img
-          alt="Schemat bram, drzwi i stref przeładunku"
+          alt="Koncepcyjny przekrój budynku przemysłowego — ilustracja AI"
           className=""
           decoding="async"
           loading="eager"
-          src="/assets/a6473e4b1a7f.webp"
+          src="/assets/ai-building-v1.webp"
         />
         <div>
           <h2>

@@ -31,22 +31,22 @@ export default function Content() {
         </div>
         <figure className="inner-image" data-reveal="">
           <img
-            alt="Nagrzewnice Winterwarm zamontowane w hali"
+            alt="Koncepcyjna hala z ogrzewaniem — ilustracja AI"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/afdcf0067ec7.webp"
+            src="/assets/ai-workshop-v1.webp"
           />
         </figure>
       </section>
       <section className="wrap section feature-split">
         <div>
           <img
-            alt="Oryginalna fotografia nagrzewnicy Winterwarm XR+"
+            alt="Koncepcyjna nagrzewnica bez marki — ilustracja AI, nie zdjęcie modelu XR+"
             className="object-photo"
             decoding="async"
             loading="eager"
-            src="/assets/e5130665016f.webp"
+            src="/assets/ai-heater-v1.webp"
           />
         </div>
         <div>
@@ -97,11 +97,11 @@ export default function Content() {
       </section>
       <section className="wrap section wide-scene">
         <img
-          alt="Instalacje w magazynie z materiałów Winterwarm"
+          alt="Koncepcyjny magazyn z instalacjami — ilustracja AI"
           className=""
           decoding="async"
           loading="eager"
-          src="/assets/e80927706bd0.webp"
+          src="/assets/ai-warehouse-v1.webp"
         />
         <div>
           <h2>

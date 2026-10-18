@@ -41,9 +41,11 @@ for (const width of [1440, 768, 390])
         "Bohdan Mykytenko i Marian Poliakov",
       );
       await expect(page.locator(".footer-bottom")).toContainText(
-        "Zdjęcia produktów i realizacji: materiały ze strony",
+        "Ilustracje wygenerowane przy użyciu AI",
       );
-      await expect(page.locator(".footer-bottom")).not.toContainText("AI");
+      await expect(page.locator(".footer-bottom")).toContainText(
+        "Nie przedstawiają rzeczywistych produktów",
+      );
       await expect(page.locator("html")).toHaveAttribute("lang", "pl");
       expect(
         await page.evaluate(
@@ -151,14 +153,16 @@ test("preview is noindex and security headers exist", async ({ request }) => {
   expect(await robots.text()).toContain("Disallow: /");
 });
 
-test("catalog shows one honest photograph per area", async ({ page }) => {
+test("catalog shows one representative AI illustration per area", async ({
+  page,
+}) => {
   await openDemo(page, "/produkty");
   for (const id of ["xr", "gates", "sky"])
     await expect(page.locator("#" + id + " .catalog-picture")).toBeVisible();
   expect(await page.locator(".catalog-picture:visible").count()).toBe(3);
 });
 
-test("demo attribution, accurate photo credit and home caption cleanup", async ({
+test("demo attribution and clear AI illustration disclosure", async ({
   page,
 }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
@@ -166,9 +170,9 @@ test("demo attribution, accurate photo credit and home caption cleanup", async (
     await page.setViewportSize({ width, height: 960 });
     await openDemo(page, "/");
     await expect(page.locator(".caption-ai")).toHaveCount(0);
-    await expect(
-      page.locator(".footer-bottom a[href='https://winterwarm.pl/']"),
-    ).toBeVisible();
+    await expect(page.locator(".footer-bottom")).toContainText(
+      "Ilustracje wygenerowane przy użyciu AI",
+    );
     const geometry = await page.evaluate(() => {
       const notice = document
         .querySelector(".demo-notice")!
@@ -293,27 +297,19 @@ test("demo warning is readable and scrollable on every screen size", async ({
   }
 });
 
-test("visible photographs have clickable links to their actual originals", async ({
+test("visible AI illustrations have clickable links to their actual files", async ({
   page,
 }) => {
   for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 960 });
     for (const [path, src, href] of [
-      ["/", "/assets/35db6f541289.webp", "/assets/35db6f541289.webp"],
-      [
-        "/hvac",
-        "/assets/afdcf0067ec7.webp",
-        "https://winterwarm.pl/wp-content/uploads/2024/11/image-15-1.png",
-      ],
-      [
-        "/produkty",
-        "/assets/e5130665016f.webp",
-        "https://winterwarm.pl/wp-content/uploads/2026/10/xr30-bez-tla.png",
-      ],
+      ["/", "/assets/ai-hero-v1.webp", "/assets/ai-hero-v1.webp"],
+      ["/hvac", "/assets/ai-workshop-v1.webp", "/assets/ai-workshop-v1.webp"],
+      ["/produkty", "/assets/ai-heater-v1.webp", "/assets/ai-heater-v1.webp"],
       [
         "/realizacje",
-        "/assets/e80927706bd0.webp",
-        "https://winterwarm.pl/wp-content/uploads/2024/11/image-22.png",
+        "/assets/ai-warehouse-v1.webp",
+        "/assets/ai-warehouse-v1.webp",
       ],
     ]) {
       await openDemo(page, path);
@@ -358,20 +354,16 @@ test("photo source links follow changing solution photographs and hide behind no
   await page.locator("#solution-photo").scrollIntoViewIfNeeded();
   await expect(
     page
-      .locator('.photo-source-link[data-photo-src="/assets/7df5b3d3ea99.webp"]')
+      .locator('.photo-source-link[data-photo-src="/assets/ai-doors-v1.webp"]')
       .first(),
-  ).toHaveAttribute(
-    "href",
-    "https://winterwarm.pl/wp-content/uploads/2025/09/2.png",
-  );
+  ).toHaveAttribute("href", "/assets/ai-doors-v1.webp");
   await page.locator("#tab-light").click();
   await page.locator("#solution-photo").scrollIntoViewIfNeeded();
   await expect(
     page
-      .locator('.photo-source-link[data-photo-src="/assets/c4fd4094fa3d.webp"]')
+      .locator(
+        '.photo-source-link[data-photo-src="/assets/ai-lighting-v1.webp"]',
+      )
       .first(),
-  ).toHaveAttribute(
-    "href",
-    "https://winterwarm.pl/wp-content/uploads/2025/09/1.png",
-  );
+  ).toHaveAttribute("href", "/assets/ai-lighting-v1.webp");
 });

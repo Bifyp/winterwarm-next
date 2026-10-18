@@ -105,8 +105,8 @@ export default function DemoGate() {
           </ul>
         </section>
         <p className="demo-gate-source">
-          Zdjęcia produktów i realizacji: materiały ze strony{" "}
-          <a href="https://winterwarm.pl/">Winterwarm Polska</a>.
+          Ilustracje wygenerowane przy użyciu AI. Nie przedstawiają
+          rzeczywistych produktów, zespołu ani realizacji firmy.
         </p>
         <div className="demo-gate-actions">
           <button className="btn" onClick={() => dialog.current?.close()}>

@@ -63,12 +63,12 @@ export default function PhotoSourceLinks() {
               if (header) top = Math.max(top, header.bottom);
             }
             if (right - left < 96 || bottom - top < 60) return;
-            const width = Math.min(112, right - left - 16);
+            const width = Math.min(132, right - left - 16);
             next.push({
               key: `${index}:${src}`,
               src,
               href: source.href,
-              label: source.label,
+              label: width < 128 ? "AI ↗" : source.label,
               alt: image.alt,
               top: Math.round(top + 8),
               left: Math.round(right - width - 8),
@@ -120,7 +120,7 @@ export default function PhotoSourceLinks() {
   }, []);
 
   return (
-    <div className="photo-source-layer" aria-label="Źródła widocznych zdjęć">
+    <div className="photo-source-layer" aria-label="Ilustracje koncepcyjne AI">
       {credits.map((credit) => (
         <a
           key={credit.key}
@@ -129,12 +129,8 @@ export default function PhotoSourceLinks() {
           href={credit.href}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`${credit.label === "Ilustracja ↗" ? "Otwórz plik ilustracji" : "Otwórz oryginał zdjęcia"}: ${credit.alt} (nowa karta)`}
-          title={
-            credit.label === "Ilustracja ↗"
-              ? "Otwórz plik ilustracji"
-              : "Otwórz oryginał na winterwarm.pl"
-          }
+          aria-label={`Otwórz ilustrację AI: ${credit.alt} (nowa karta)`}
+          title="Ilustracja AI — nie przedstawia rzeczywistego produktu, zespołu ani realizacji firmy"
           style={{ top: credit.top, left: credit.left, width: credit.width }}
         >
           {credit.label}

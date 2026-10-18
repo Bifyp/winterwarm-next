@@ -15,12 +15,12 @@ export default function Content() {
       <section aria-labelledby="hero-title" className="hero">
         <div className="hero-media">
           <img
-            alt="Koncepcyjna wizualizacja hali przemysłowej z instalacjami i oświetleniem"
-            height="672"
+            alt="Koncepcyjna hala przemysłowa z ogrzewaniem — ilustracja AI"
+            height="768"
             fetchPriority="high"
             decoding="async"
-            src="/assets/35db6f541289.webp"
-            width="1584"
+            src="/assets/ai-hero-v1.webp"
+            width="1376"
           />
         </div>
         <div aria-hidden="true" className="hero-shade"></div>
@@ -120,10 +120,10 @@ export default function Content() {
           </div>
           <div className="product-image" data-reveal="">
             <img
-              alt="Nagrzewnica gazowa Winterwarm XR+ — oryginalne zdjęcie produktu"
-              height="1000"
-              src="/assets/e5130665016f.webp"
-              width="1000"
+              alt="Koncepcyjna nagrzewnica bez marki — ilustracja AI, nie zdjęcie modelu XR+"
+              height="1024"
+              src="/assets/ai-heater-v1.webp"
+              width="1024"
             />
           </div>
         </div>
@@ -171,10 +171,10 @@ export default function Content() {
           <figure className="gallery-item" data-reveal="">
             <div className="image-box">
               <img
-                alt="Instalacja nagrzewnic w magazynie — fotografia ze strony Winterwarm"
-                height="900"
-                src="/assets/e80927706bd0.webp"
-                width="1348"
+                alt="Koncepcyjny magazyn z instalacjami — ilustracja AI"
+                height="848"
+                src="/assets/ai-warehouse-v1.webp"
+                width="1264"
               />
             </div>
             <figcaption>
@@ -185,10 +185,10 @@ export default function Content() {
           <figure className="gallery-item" data-reveal="">
             <div className="image-box">
               <img
-                alt="Wnętrze salonu samochodowego z instalacją pod sufitem — fotografia ze strony Winterwarm"
-                height="755"
-                src="/assets/68f44533affc.webp"
-                width="1132"
+                alt="Koncepcyjny salon samochodowy — ilustracja AI"
+                height="848"
+                src="/assets/ai-showroom-v1.webp"
+                width="1264"
               />
             </div>
             <figcaption>
@@ -242,12 +242,14 @@ export default function Content() {
         </div>
         <figure className="people-image photo-in" data-reveal="">
           <img
-            alt="Zespół Winterwarm Polska — zdjęcie ze strony firmy"
-            height="929"
-            src="/assets/eb9a5f530336.webp"
-            width="1536"
+            alt="Koncepcyjne biuro techniczne — ilustracja AI, nie siedziba firmy"
+            height="848"
+            src="/assets/ai-office-v1.webp"
+            width="1264"
           />
-          <figcaption>{"Zespół Winterwarm Polska"}</figcaption>
+          <figcaption>
+            {"Koncepcyjne biuro techniczne — ilustracja AI"}
+          </figcaption>
         </figure>
         <div className="stats">
           <div className="stat" data-reveal="">

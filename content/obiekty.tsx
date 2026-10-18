@@ -31,11 +31,11 @@ export default function Content() {
         </div>
         <figure className="inner-image" data-reveal="">
           <img
-            alt="Schemat budynku i obszarów oferty"
+            alt="Koncepcyjny przekrój budynku przemysłowego — ilustracja AI"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/a6473e4b1a7f.webp"
+            src="/assets/ai-building-v1.webp"
           />
         </figure>
       </section>

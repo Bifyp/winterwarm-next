@@ -31,11 +31,11 @@ export default function Content() {
         </div>
         <figure className="inner-image" data-reveal="">
           <img
-            alt="Przemysłowa instalacja oświetleniowa z oferty Winterwarm"
+            alt="Koncepcyjna hala z oświetleniem LED — ilustracja AI, nie zdjęcie modelu Skyline"
             className=""
             decoding="async"
             loading="eager"
-            src="/assets/c4fd4094fa3d.webp"
+            src="/assets/ai-lighting-v1.webp"
           />
         </figure>
       </section>
@@ -100,11 +100,11 @@ export default function Content() {
       </section>
       <section className="wrap section wide-scene">
         <img
-          alt="Wnętrze salonu z instalacjami oświetleniowymi, z materiałów Winterwarm"
+          alt="Koncepcyjny salon samochodowy — ilustracja AI"
           className=""
           decoding="async"
           loading="eager"
-          src="/assets/68f44533affc.webp"
+          src="/assets/ai-showroom-v1.webp"
         />
         <div>
           <h2>

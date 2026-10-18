@@ -57,7 +57,7 @@
     },
     {
       "name": "Przestrzenie i instalacje",
-      "description": "Galeria fotografii przestrzeni i instalacji z materiałów Winterwarm Polska.",
+      "description": "Galeria koncepcyjnych ilustracji AI przestrzeni i instalacji — nie rzeczywistych realizacji firmy.",
       "url": "/realizacje"
     },
     {
@@ -217,15 +217,15 @@
   ],
   "assets": {
     "logo": "/assets/5ee714917810.svg",
-    "hero": "/assets/35db6f541289.webp",
-    "hall": "/assets/afdcf0067ec7.webp",
-    "xr": "/assets/e5130665016f.webp",
-    "building": "/assets/a6473e4b1a7f.webp",
-    "warehouse": "/assets/e80927706bd0.webp",
-    "showroom": "/assets/68f44533affc.webp",
-    "team": "/assets/eb9a5f530336.webp",
-    "doors": "/assets/7df5b3d3ea99.webp",
-    "led": "/assets/c4fd4094fa3d.webp"
+    "hero": "/assets/ai-hero-v1.webp",
+    "hall": "/assets/ai-workshop-v1.webp",
+    "xr": "/assets/ai-heater-v1.webp",
+    "building": "/assets/ai-building-v1.webp",
+    "warehouse": "/assets/ai-warehouse-v1.webp",
+    "showroom": "/assets/ai-showroom-v1.webp",
+    "team": "/assets/ai-office-v1.webp",
+    "doors": "/assets/ai-doors-v1.webp",
+    "led": "/assets/ai-lighting-v1.webp"
   },
   "catalog": [
     {
@@ -234,7 +234,7 @@
       "description": "Gazowe nagrzewnice niekondensacyjne do budynków przemysłowych i magazynowych.",
       "area": "HVAC",
       "group": "Ogrzewanie",
-      "image": "/assets/e5130665016f.webp",
+      "image": "/assets/ai-heater-v1.webp",
       "id": "xr"
     },
     {
@@ -243,7 +243,7 @@
       "description": "Kondensacyjne nagrzewnice z oferty ogrzewania nadmuchowego.",
       "area": "HVAC",
       "group": "Ogrzewanie",
-      "image": "/assets/afdcf0067ec7.webp",
+      "image": "/assets/ai-workshop-v1.webp",
       "id": "hr"
     },
     {
@@ -252,7 +252,7 @@
       "description": "Nagrzewnice elektryczne. Szczegóły modeli w katalogu źródłowym.",
       "area": "HVAC",
       "group": "Ogrzewanie",
-      "image": "/assets/afdcf0067ec7.webp",
+      "image": "/assets/ai-workshop-v1.webp",
       "id": "eh"
     },
     {
@@ -261,7 +261,7 @@
       "description": "Rozwiązania hybrydowe z gamy nagrzewnic Winterwarm.",
       "area": "HVAC",
       "group": "Ogrzewanie",
-      "image": "/assets/afdcf0067ec7.webp",
+      "image": "/assets/ai-workshop-v1.webp",
       "id": "qwik"
     },
     {
@@ -270,7 +270,7 @@
       "description": "Wodne nagrzewnice z rodziny WWH. Dostępne także rodziny LT i JET.",
       "area": "HVAC",
       "group": "Ogrzewanie",
-      "image": "/assets/afdcf0067ec7.webp",
+      "image": "/assets/ai-workshop-v1.webp",
       "id": "wwh"
     },
     {
@@ -279,7 +279,7 @@
       "description": "Ogrzewanie promiennikowe, w tym promienniki ceramiczne i rurowe.",
       "area": "HVAC",
       "group": "Ogrzewanie",
-      "image": "/assets/e80927706bd0.webp",
+      "image": "/assets/ai-warehouse-v1.webp",
       "id": "radiant"
     },
     {
@@ -288,7 +288,7 @@
       "description": "Oferta urządzeń do wentylacji obiektów.",
       "area": "HVAC",
       "group": "Powietrze",
-      "image": "/assets/afdcf0067ec7.webp",
+      "image": "/assets/ai-workshop-v1.webp",
       "id": "vent"
     },
     {
@@ -297,7 +297,7 @@
       "description": "Rozwiązania chłodzące, w tym klimatyzery ewaporacyjne Wintercooler.",
       "area": "HVAC",
       "group": "Powietrze",
-      "image": "/assets/e80927706bd0.webp",
+      "image": "/assets/ai-warehouse-v1.webp",
       "id": "cool"
     },
     {
@@ -306,7 +306,7 @@
       "description": "Uzupełnienie systemów, w tym destratyfikacja i wentylatory sufitowe.",
       "area": "HVAC",
       "group": "Powietrze",
-      "image": "/assets/afdcf0067ec7.webp",
+      "image": "/assets/ai-workshop-v1.webp",
       "id": "support"
     },
     {
@@ -315,7 +315,7 @@
       "description": "Bramy segmentowe, rolowane i doki dla produkcji, logistyki i transportu.",
       "area": "Dostęp",
       "group": "Bramy",
-      "image": "/assets/7df5b3d3ea99.webp",
+      "image": "/assets/ai-doors-v1.webp",
       "id": "gates"
     },
     {
@@ -324,7 +324,7 @@
       "description": "Oferta stalowej stolarki drzwiowej.",
       "area": "Dostęp",
       "group": "Drzwi",
-      "image": "/assets/7df5b3d3ea99.webp",
+      "image": "/assets/ai-doors-v1.webp",
       "id": "steel"
     },
     {
@@ -333,7 +333,7 @@
       "description": "Rozwiązania do wnętrz i komunikacji w budynku.",
       "area": "Dostęp",
       "group": "Drzwi",
-      "image": "/assets/7df5b3d3ea99.webp",
+      "image": "/assets/ai-doors-v1.webp",
       "id": "inner"
     },
     {
@@ -342,7 +342,7 @@
       "description": "Rodzina bram szybkobieżnych w ofercie przegród budowlanych.",
       "area": "Dostęp",
       "group": "Bramy",
-      "image": "/assets/7df5b3d3ea99.webp",
+      "image": "/assets/ai-doors-v1.webp",
       "id": "fast"
     },
     {
@@ -351,7 +351,7 @@
       "description": "Rozwiązania przeznaczone do ochrony przeciwpożarowej.",
       "area": "Dostęp",
       "group": "Ochrona",
-      "image": "/assets/7df5b3d3ea99.webp",
+      "image": "/assets/ai-doors-v1.webp",
       "id": "fire"
     },
     {
@@ -360,7 +360,7 @@
       "description": "Klapy, wyłazy i świetliki z oferty Winterwarm.",
       "area": "Dostęp",
       "group": "Ochrona",
-      "image": "/assets/7df5b3d3ea99.webp",
+      "image": "/assets/ai-doors-v1.webp",
       "id": "smoke"
     },
     {
@@ -369,7 +369,7 @@
       "description": "Modułowy system liniowych opraw LED do profili WLL600 / WLL610.",
       "area": "LED",
       "group": "Oprawy",
-      "image": "/assets/c4fd4094fa3d.webp",
+      "image": "/assets/ai-lighting-v1.webp",
       "id": "sky"
     },
     {
@@ -378,7 +378,7 @@
       "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
       "area": "LED",
       "group": "Oprawy",
-      "image": "/assets/c4fd4094fa3d.webp",
+      "image": "/assets/ai-lighting-v1.webp",
       "id": "next"
     },
     {
@@ -387,7 +387,7 @@
       "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
       "area": "LED",
       "group": "Oprawy",
-      "image": "/assets/c4fd4094fa3d.webp",
+      "image": "/assets/ai-lighting-v1.webp",
       "id": "lt"
     },
     {
@@ -396,7 +396,7 @@
       "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
       "area": "LED",
       "group": "Oprawy",
-      "image": "/assets/c4fd4094fa3d.webp",
+      "image": "/assets/ai-lighting-v1.webp",
       "id": "ac"
     },
     {
@@ -405,7 +405,7 @@
       "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
       "area": "LED",
       "group": "Oprawy",
-      "image": "/assets/c4fd4094fa3d.webp",
+      "image": "/assets/ai-lighting-v1.webp",
       "id": "prefab"
     },
     {
@@ -414,7 +414,7 @@
       "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
       "area": "LED",
       "group": "Oprawy",
-      "image": "/assets/c4fd4094fa3d.webp",
+      "image": "/assets/ai-lighting-v1.webp",
       "id": "band"
     },
     {
@@ -423,7 +423,7 @@
       "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
       "area": "LED",
       "group": "Oprawy",
-      "image": "/assets/c4fd4094fa3d.webp",
+      "image": "/assets/ai-lighting-v1.webp",
       "id": "profile"
     }
   ]
