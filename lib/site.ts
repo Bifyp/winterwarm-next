@@ -17,7 +17,7 @@ export function metadataFor(slug: keyof typeof pages): Metadata {
     alternates: { canonical: path },
     robots: { index: indexable, follow: indexable },
     openGraph: {
-      title: page.title + " | Winterwarm",
+      title: page.title + " | ЛОГО",
       description: page.description,
       url: path,
       type: "website",

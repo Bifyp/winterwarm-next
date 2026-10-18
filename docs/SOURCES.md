@@ -16,7 +16,7 @@ External catalog destinations were taken from these sources. Not every external 
 
 All nine content images were replaced with original AI-generated concept illustrations at the user's request. No company product, team or installation photographs remain in the content image set. These fictional scenes are not evidence of actual projects, company premises or the appearance of a named product. The generic heater does not depict an XR+ model, and generic lighting does not depict a Skyline model.
 
-The company wordmark (`assets/5ee714917810.svg`) is unchanged and remains subject to its rights holder's permission. Replacing photographs does not resolve trademark or other rights issues.
+The rendered company wordmark has been removed and replaced by literal text “ЛОГО”. The favicon is a generic letter, and content, product names, contact information and SEO descriptions have been replaced by neutral template material. Historical source URLs below document earlier research, not current endorsement or current copy.
 
 | Local image                   | Subject                                                                         |
 | ----------------------------- | ------------------------------------------------------------------------------- |

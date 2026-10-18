@@ -28,22 +28,22 @@ export default function Content() {
           <div>
             <h1 id="hero-title">
               <span className="hero-title-line">
-                <span>{"Technologia,"}</span>
+                <span>{"Lorem ipsum,"}</span>
               </span>
               <span className="hero-title-line">
-                <span>{"która pracuje."}</span>
+                <span>{"dolor sit amet."}</span>
               </span>
             </h1>
             <p className="hero-description">
-              {"Więcej niż urządzenia."}
+              {"Lorem ipsum dolor."}
               <br />
-              {"Komfort, bezpieczeństwo i światło dla Twojej inwestycji."}
+              {"Lorem ipsum dolor sit amet, consectetur adipiscing."}
             </p>
           </div>
           <div className="hero-right">
             <p className="hero-lead">
               {
-                "Łączymy HVAC, drzwi i bramy oraz oświetlenie LED w rozwiązania dopasowane do budynku."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
               }
             </p>
             <a className="btn" href="/projekt">
@@ -60,23 +60,23 @@ export default function Content() {
             {"Odkryj możliwości"}
           </a>
           <p>
-            {"Od doradztwa i projektu"}
+            {"Lorem ipsum dolor sit."}
             <br />
-            {"po montaż i serwis."}
+            {"Lorem ipsum dolor sit."}
           </p>
         </div>
       </section>
       {"\n"}
       <section className="statement wrap" id="rozwiazania">
         <h2 data-reveal="">
-          {"Przestrzeń."}
+          {"Lorem ipsum."}
           <br />
-          {"Która działa."}
+          {"Lorem ipsum."}
         </h2>
         <div data-reveal="">
           <p>
             {
-              "Każda przestrzeń ma inne zadania. My patrzymy na cały obiekt — od temperatury i jakości powietrza, przez strefy dostępu, po warunki pracy."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
           </p>
           <a className="link" href="#obiekt">
@@ -94,33 +94,33 @@ export default function Content() {
         <div className="product-grid">
           <div className="product-copy" data-reveal="">
             <h2 id="product-title">
-              {"Ciepło, które"}
+              {"Lorem ipsum."}
               <br />
-              {"pracuje."}
+              {"Lorem ipsum."}
             </h2>
-            <p className="product-name">{"Winterwarm XR+"}</p>
+            <p className="product-name">{"Lorem ipsum dolor."}</p>
             <p>
               {
-                "Gazowa nagrzewnica powietrza do przestrzeni przemysłowych. Poznaj urządzenie i porozmawiajmy o jego zastosowaniu w Twoim obiekcie."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et."
               }
             </p>
             <a className="btn light" href="/xr-plus">
-              {"Poznaj Winterwarm XR+"}
+              {"Zobacz szczegóły"}
             </a>
             <div className="product-facts">
               <p>
-                <strong>{"Hale i magazyny"}</strong>
-                {"Zastosowania przemysłowe"}
+                <strong>{"Lorem ipsum"}</strong>
+                {"Lorem ipsum dolor."}
               </p>
               <p>
-                <strong>{"Dobór do obiektu"}</strong>
-                {"Wsparcie zespołu HVAC"}
+                <strong>{"Lorem ipsum"}</strong>
+                {"Lorem ipsum dolor."}
               </p>
             </div>
           </div>
           <div className="product-image" data-reveal="">
             <img
-              alt="Koncepcyjna nagrzewnica bez marki — ilustracja AI, nie zdjęcie modelu XR+"
+              alt="Koncepcyjna nagrzewnica bez marki — ilustracja AI, produkt fikcyjny"
               height="1024"
               src="/assets/ai-heater-v1.webp"
               width="1024"
@@ -129,9 +129,9 @@ export default function Content() {
         </div>
         <div className="product-bottom">
           <p>
-            {"Nie zaczynaj od modelu."}
+            {"Lorem ipsum dolor sit."}
             <br />
-            {"Zacznij od potrzeby."}
+            {"Lorem ipsum dolor."}
           </p>
           <a
             className="link"
@@ -157,13 +157,13 @@ export default function Content() {
       <section aria-labelledby="gallery-title" className="gallery wrap">
         <div className="section-head">
           <h2 data-reveal="" id="gallery-title">
-            {"Technologia."}
+            {"Lorem ipsum."}
             <br />
-            {"W praktyce."}
+            {"Lorem ipsum."}
           </h2>
           <p data-reveal="">
             {
-              "Nie tylko na rysunku. Zobacz instalacje i przestrzenie prezentowane przez Winterwarm."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod."
             }
           </p>
         </div>
@@ -178,8 +178,8 @@ export default function Content() {
               />
             </div>
             <figcaption>
-              {"Hale i magazyny "}
-              <span>{"Instalacje w przestrzeni przemysłowej"}</span>
+              {"Lorem ipsum dolor."}
+              <span>{"Lorem ipsum dolor sit."}</span>
             </figcaption>
           </figure>
           <figure className="gallery-item" data-reveal="">
@@ -192,17 +192,13 @@ export default function Content() {
               />
             </div>
             <figcaption>
-              {"Przestrzenie handlowe "}
-              <span>{"Technologia w architekturze wnętrza"}</span>
+              {"Lorem ipsum dolor."}
+              <span>{"Lorem ipsum dolor sit."}</span>
             </figcaption>
           </figure>
         </div>
         <div className="gallery-bottom">
-          <p>
-            {
-              "Rozwiązania do obiektów przemysłowych, logistycznych, handlowych i usługowych."
-            }
-          </p>
+          <p>{"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}</p>
           <a className="link" href="/obiekty">
             {"Rozwiązania dla hal "}
             <span aria-hidden="true" className="arrow">
@@ -222,14 +218,14 @@ export default function Content() {
       >
         <div className="people-top">
           <h2 data-reveal="" id="people-title">
-            {"Ludzie za"}
+            {"Lorem ipsum."}
             <br />
-            {"technologią."}
+            {"Lorem ipsum."}
           </h2>
           <div data-reveal="">
             <p>
               {
-                "Za każdym rozwiązaniem stoi zespół. W Winterwarm Polska łączymy wiedzę techniczną z praktyką: doradzamy, projektujemy, montujemy i serwisujemy."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna."
               }
             </p>
             <a className="link" href="/o-nas">
@@ -253,49 +249,49 @@ export default function Content() {
         </figure>
         <div className="stats">
           <div className="stat" data-reveal="">
-            <strong>{"15 000+"}</strong>
-            <span>{"realizacji"}</span>
+            <strong>{"—"}</strong>
+            <span>{"Lorem ipsum dolor."}</span>
           </div>
           <div className="stat" data-reveal="">
-            <strong>{"25"}</strong>
-            <span>{"lat doświadczenia w Polsce"}</span>
+            <strong>{"—"}</strong>
+            <span>{"Lorem ipsum dolor sit."}</span>
           </div>
           <div className="stat" data-reveal="">
-            <strong>{"100+"}</strong>
-            <span>{"pracowników"}</span>
+            <strong>{"—"}</strong>
+            <span>{"Lorem ipsum dolor."}</span>
           </div>
           <div className="stat" data-reveal="">
-            <strong>{"40+"}</strong>
-            <span>{"samochodów technicznych"}</span>
+            <strong>{"—"}</strong>
+            <span>{"Lorem ipsum dolor."}</span>
           </div>
         </div>
         <div className="partners">
           <p>
-            {"Partnerzy prezentowani"}
+            {"Lorem ipsum dolor."}
             <br />
-            {"na stronie Winterwarm"}
+            {"Lorem ipsum dolor."}
           </p>
           <div className="partner-names">
-            <span>{"Space-Ray"}</span>
-            <span>{"BELIMO"}</span>
-            <span>{"WIŚNIOWSKI"}</span>
-            <span>{"MERCOR"}</span>
+            <span>{"Lorem ipsum dolor."}</span>
+            <span>{"Lorem ipsum dolor."}</span>
+            <span>{"Lorem ipsum dolor."}</span>
+            <span>{"Lorem ipsum dolor."}</span>
           </div>
         </div>
       </section>
       {"\n"}
       <section aria-labelledby="faq-title" className="faq wrap">
         <h2 data-reveal="" id="faq-title">
-          {"Masz"}
+          {"Lorem ipsum."}
           <br />
-          {"pytania?"}
+          {"Lorem ipsum."}
         </h2>
         <div className="faq-list">
           <details>
             <summary>{"Od czego zacząć dobór rozwiązania?"}</summary>
             <p>
               {
-                "Opisz rodzaj obiektu i to, co chcesz poprawić: temperaturę, wentylację, dostęp lub oświetlenie. Możesz skorzystać z krótkiego briefu na tej stronie i przesłać go do zespołu."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               }
             </p>
           </details>
@@ -303,7 +299,7 @@ export default function Content() {
             <summary>{"Czy zajmujecie się modernizacją?"}</summary>
             <p>
               {
-                "Oferta Winterwarm obejmuje zarówno nowe inwestycje, jak i modernizację oraz adaptację przestrzeni. Zakres prac i rozwiązania ustala się indywidualnie."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               }
             </p>
           </details>
@@ -311,7 +307,7 @@ export default function Content() {
             <summary>{"Jak skontaktować się z odpowiednim działem?"}</summary>
             <p>
               {
-                "W sekcji kontakt znajdziesz osobne numery i adresy dla HVAC, drzwi i bram oraz LED. Przy zapytaniu obejmującym kilka obszarów skorzystaj z adresu winterwarm@winterwarm.pl."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               }
             </p>
           </details>
@@ -325,14 +321,14 @@ export default function Content() {
       >
         <div className="contact-top">
           <h2 data-reveal="" id="contact-title">
-            {"Twój kolejny"}
+            {"Lorem ipsum."}
             <br />
-            {"dobry projekt."}
+            {"Lorem ipsum."}
           </h2>
           <div className="contact-intro" data-reveal="">
             <p>
               {
-                "Opowiedz nam o swoim obiekcie. Uporządkuj potrzeby w krótkim briefie lub skontaktuj się bezpośrednio z wybranym zespołem."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore."
               }
             </p>
             <a className="btn" href="/projekt">
@@ -345,19 +341,19 @@ export default function Content() {
         </div>
         <div className="contact-grid">
           <div className="contact-cell" data-reveal="">
-            <h3>{"HVAC"}</h3>
-            <a href="tel:+48603586500">{"+48 603 586 500"}</a>
-            <a href="mailto:hvac@winterwarm.pl">{"hvac@winterwarm.pl"}</a>
+            <h3>{"Lorem ipsum."}</h3>
+            <a href="/kontakt#demo-contact">{"Kontakt demonstracyjny"}</a>
+            <a href="/kontakt#demo-contact">{"demo@example.com"}</a>
           </div>
           <div className="contact-cell" data-reveal="">
-            <h3>{"Drzwi i bramy"}</h3>
-            <a href="tel:+48501221533">{"+48 501 221 533"}</a>
-            <a href="mailto:bramy@winterwarm.pl">{"bramy@winterwarm.pl"}</a>
+            <h3>{"Lorem ipsum."}</h3>
+            <a href="/kontakt#demo-contact">{"Kontakt demonstracyjny"}</a>
+            <a href="/kontakt#demo-contact">{"demo@example.com"}</a>
           </div>
           <div className="contact-cell" data-reveal="">
-            <h3>{"Oświetlenie LED"}</h3>
-            <a href="tel:+48601165825">{"+48 601 165 825"}</a>
-            <a href="mailto:winled@winterwarm.pl">{"winled@winterwarm.pl"}</a>
+            <h3>{"Lorem ipsum."}</h3>
+            <a href="/kontakt#demo-contact">{"Kontakt demonstracyjny"}</a>
+            <a href="/kontakt#demo-contact">{"demo@example.com"}</a>
           </div>
         </div>
       </section>

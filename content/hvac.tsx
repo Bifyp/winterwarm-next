@@ -14,14 +14,14 @@ export default function Content() {
       <section className="inner-hero wrap">
         <div className="inner-title">
           <h1 data-reveal="">
-            {"Dobry klimat"}
+            {"Lorem ipsum."}
             <br />
-            {"do pracy."}
+            {"Lorem ipsum."}
           </h1>
           <div>
             <p data-reveal="">
               {
-                "Nagrzewnice, wentylacja i chłodzenie dla hal, magazynów, warsztatów i obiektów usługowych."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod."
               }
             </p>
             <a className="btn" href="/produkty?obszar=HVAC">
@@ -42,7 +42,7 @@ export default function Content() {
       <section className="wrap section feature-split">
         <div>
           <img
-            alt="Koncepcyjna nagrzewnica bez marki — ilustracja AI, nie zdjęcie modelu XR+"
+            alt="Koncepcyjna nagrzewnica bez marki — ilustracja AI, produkt fikcyjny"
             className="object-photo"
             decoding="async"
             loading="eager"
@@ -51,10 +51,10 @@ export default function Content() {
         </div>
         <div>
           <div className="section-head">
-            <h2 data-reveal="">{"Winterwarm XR+"}</h2>
+            <h2 data-reveal="">{"Lorem ipsum."}</h2>
             <p data-reveal="">
               {
-                "Niekondensacyjna nagrzewnica gazowa z modulowanym palnikiem i wentylatorem. Montaż z nawiewem poziomym lub pionowym."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut."
               }
             </p>
           </div>
@@ -65,32 +65,32 @@ export default function Content() {
       </section>
       <section className="wrap section">
         <div className="section-head">
-          <h2 data-reveal="">{"Ciepło i powietrze."}</h2>
+          <h2 data-reveal="">{"Lorem ipsum."}</h2>
           <p data-reveal="">
             {
-              "Dobór technologii zaczyna się od sposobu użytkowania przestrzeni i dostępnych instalacji."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod."
             }
           </p>
         </div>
         <div className="offer-list">
           <a data-reveal="" href="/produkty?obszar=HVAC&szukaj=nagrzewnice">
-            <h3>{"Ogrzewanie nadmuchowe"}</h3>
-            <p>{"XR+, HR, EH, QwikShift i WWH."}</p>
+            <h3>{"Dolor sit amet."}</h3>
+            <p>{"Lorem ipsum dolor sit amet, consectetur adipiscing."}</p>
             <span aria-hidden="true">{"↗"}</span>
           </a>
           <a data-reveal="" href="/produkty?obszar=HVAC&szukaj=promienniki">
-            <h3>{"Ogrzewanie promiennikowe"}</h3>
-            <p>{"Promienniki ceramiczne i rurowe."}</p>
+            <h3>{"Dolor sit amet."}</h3>
+            <p>{"Lorem ipsum dolor sit."}</p>
             <span aria-hidden="true">{"↗"}</span>
           </a>
           <a data-reveal="" href="/produkty?obszar=HVAC&szukaj=powietrze">
-            <h3>{"Wentylacja i chłodzenie"}</h3>
-            <p>{"Urządzenia do wymiany i chłodzenia powietrza."}</p>
+            <h3>{"Dolor sit amet."}</h3>
+            <p>{"Lorem ipsum dolor sit amet, consectetur."}</p>
             <span aria-hidden="true">{"↗"}</span>
           </a>
           <a data-reveal="" href="/produkty?obszar=HVAC&szukaj=wspomagające">
-            <h3>{"Wsparcie instalacji"}</h3>
-            <p>{"Destratyfikatory, wentylatory i regulacja."}</p>
+            <h3>{"Lorem ipsum."}</h3>
+            <p>{"Lorem ipsum dolor sit."}</p>
             <span aria-hidden="true">{"↗"}</span>
           </a>
         </div>
@@ -105,13 +105,13 @@ export default function Content() {
         />
         <div>
           <h2>
-            {"Technologia"}
+            {"Lorem ipsum."}
             <br />
-            {"w przestrzeni."}
+            {"Lorem ipsum."}
           </h2>
           <p>
             {
-              "Magazyn i hala produkcyjna mają różne wymagania. Zobacz, jakie informacje pomogą dobrać rozwiązanie do Twojego obiektu."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et."
             }
           </p>
           <a className="link" href="/obiekty">
@@ -122,38 +122,38 @@ export default function Content() {
       <section className="wrap section process">
         <div className="section-head">
           <h2 data-reveal="">
-            {"Od rozmowy"}
+            {"Lorem ipsum."}
             <br />
-            {"do działania."}
+            {"Lorem ipsum."}
           </h2>
           <p data-reveal="">
             {
-              "Punkt wyjścia to Twój obiekt. Dobór urządzeń wymaga analizy warunków i potrzeb, a nie samej powierzchni."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et."
             }
           </p>
         </div>
         <div className="process-flow">
           <article data-reveal="">
-            <h3>{"Poznajemy obiekt"}</h3>
+            <h3>{"Lorem ipsum."}</h3>
             <p>
               {
-                "Nowa inwestycja czy modernizacja? Opowiedz o funkcji budynku, istniejących instalacjach i warunkach pracy."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
               }
             </p>
           </article>
           <article data-reveal="">
-            <h3>{"Dobieramy rozwiązanie"}</h3>
+            <h3>{"Dolor sit amet."}</h3>
             <p>
               {
-                "Zespół analizuje potrzeby i zakres prac. Ustalamy urządzenia, układ instalacji oraz kolejne kroki."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
               }
             </p>
           </article>
           <article data-reveal="">
-            <h3>{"Wspieramy wdrożenie"}</h3>
+            <h3>{"Lorem ipsum."}</h3>
             <p>
               {
-                "Dostawa, montaż i serwis. Zakres oraz warunki współpracy potwierdzamy indywidualnie w ofercie."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor."
               }
             </p>
           </article>
@@ -161,15 +161,15 @@ export default function Content() {
       </section>
       <section className="wrap section faq">
         <div className="section-head">
-          <h2 data-reveal="">{"Warto wiedzieć."}</h2>
-          <p data-reveal="">{"Odpowiedzi przed pierwszą rozmową."}</p>
+          <h2 data-reveal="">{"Lorem ipsum."}</h2>
+          <p data-reveal="">{"Lorem ipsum dolor sit."}</p>
         </div>
         <div className="faq-items">
           <details data-reveal="">
             <summary>{"Czy powierzchnia wystarczy do doboru?"}</summary>
             <p>
               {
-                "Nie. Potrzebne są m.in. wysokość, sposób użytkowania, wymagane warunki oraz informacje o istniejących instalacjach. Brief pomaga przygotować pierwszą rozmowę, ale nie zastępuje analizy technicznej."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               }
             </p>
           </details>
@@ -177,7 +177,7 @@ export default function Content() {
             <summary>{"Czy wspieracie modernizacje?"}</summary>
             <p>
               {
-                "Tak. Winterwarm opisuje swoją ofertę zarówno dla nowych inwestycji, jak i modernizacji oraz adaptacji przestrzeni."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
               }
             </p>
           </details>
@@ -185,15 +185,13 @@ export default function Content() {
       </section>
       <section className="wrap closing section">
         <h2 data-reveal="">
-          {"Twój obiekt."}
+          {"Lorem ipsum."}
           <br />
-          {"Porozmawiajmy."}
+          {"Lorem ipsum."}
         </h2>
         <div data-reveal="">
           <p>
-            {
-              "Wybierz obszar, opisz inwestycję i przygotuj wiadomość do właściwego zespołu."
-            }
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do."}
           </p>
           <a className="btn" href="/projekt">
             {"Zacznij projekt"}

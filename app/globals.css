@@ -4506,3 +4506,19 @@ legend {
 #demo-gate-title:focus {
   outline: none;
 }
+
+/* Neutral template logo: literal text instead of a company wordmark. */
+.logo.logo-text {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font: 700 32px/1.2 var(--body);
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+@media (max-width: 600px) {
+  .header .logo.logo-text {
+    width: auto;
+    font-size: 28px;
+  }
+}

@@ -3,7 +3,7 @@ import { siteUrl } from "@/lib/site";
 import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: siteUrl,
-  title: { default: "Winterwarm Polska", template: "%s | Winterwarm" },
+  title: { default: "Projekt demonstracyjny", template: "%s | ЛОГО" },
   icons: { icon: "/assets/favicon.svg" },
 };
 export const viewport: Viewport = {

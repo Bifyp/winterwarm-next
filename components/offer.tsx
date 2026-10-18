@@ -5,53 +5,53 @@ const areas = [
   {
     key: "climate",
     label: "Klimat.",
-    title: ["Dobry klimat", "do pracy."],
-    copy: "Ogrzewanie, wentylacja i chłodzenie. Dobieramy rozwiązania do potrzeb obiektu, jego funkcji i sposobu użytkowania.",
+    title: ["Lorem ipsum.", "Dolor sit amet."],
+    copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     items: [
-      "Ogrzewanie nadmuchowe i promiennikowe",
-      "Wentylacja i chłodzenie",
-      "Urządzenia wspomagające",
+      "Lorem ipsum dolor sit amet.",
+      "Consectetur adipiscing elit.",
+      "Sed do eiusmod tempor.",
     ],
     image: data.assets.hall,
     alt: "Koncepcyjna hala z ogrzewaniem — ilustracja AI",
-    stamp: "HVAC dla obiektów przemysłowych",
+    stamp: "Szablon demonstracyjny",
     url: "/hvac",
     action: "Poznaj ofertę HVAC",
-    zone: ["Temperatura.", "Jakość powietrza."],
+    zone: ["Lorem ipsum.", "Dolor sit amet."],
   },
   {
     key: "access",
     label: "Dostęp.",
-    title: ["Swobodny ruch.", "Pewny dostęp."],
-    copy: "Drzwi, bramy i doki. Rozwiązania do wejść, przejazdów oraz stref przeładunkowych.",
+    title: ["Lorem ipsum.", "Dolor sit amet."],
+    copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     items: [
-      "Drzwi stalowe i wewnętrzne",
-      "Bramy przemysłowe i doki",
-      "Ochrona przeciwpożarowa i oddymianie",
+      "Lorem ipsum dolor sit amet.",
+      "Consectetur adipiscing elit.",
+      "Sed do eiusmod tempor.",
     ],
     image: data.assets.doors,
     alt: "Koncepcyjne bramy przemysłowe — ilustracja AI",
-    stamp: "Drzwi, bramy i strefy przeładunku",
+    stamp: "Szablon demonstracyjny",
     url: "/drzwi-bramy",
     action: "Poznaj drzwi i bramy",
-    zone: ["Dostęp.", "Pod kontrolą."],
+    zone: ["Lorem ipsum.", "Dolor sit amet."],
   },
   {
     key: "light",
     label: "Światło.",
-    title: ["Światło gotowe", "do działania."],
-    copy: "Oświetlenie LED dopasowane do funkcji przestrzeni przemysłowej i komercyjnej.",
+    title: ["Lorem ipsum.", "Dolor sit amet."],
+    copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     items: [
-      "Skyline i NEXTGEN",
-      "DATALUX.LT i DATALUX.AC",
-      "Prefab i Bandraster",
+      "Lorem ipsum dolor sit amet.",
+      "Consectetur adipiscing elit.",
+      "Sed do eiusmod tempor.",
     ],
     image: data.assets.led,
     alt: "Koncepcyjna hala z oświetleniem LED — ilustracja AI",
-    stamp: "Światło dla przestrzeni pracy",
+    stamp: "Szablon demonstracyjny",
     url: "/oswietlenie",
     action: "Poznaj oświetlenie LED",
-    zone: ["Światło.", "Do Twoich zadań."],
+    zone: ["Lorem ipsum.", "Dolor sit amet."],
   },
 ];
 function TwoLines({ lines }: { lines: string[] }) {
@@ -133,8 +133,8 @@ export function Solutions() {
         </div>
       </div>
       <div className="solution-foot">
-        <p>Nowy obiekt. Modernizacja. Adaptacja.</p>
-        <span>Jedno miejsce, trzy obszary kompetencji.</span>
+        <p>Lorem ipsum. Dolor sit amet.</p>
+        <span>Consectetur adipiscing elit.</span>
       </div>
     </section>
   );
@@ -150,13 +150,13 @@ export function Explorer() {
     >
       <div className="section-head">
         <h2 id="explorer-title" data-reveal>
-          Jeden obiekt.
+          Lorem ipsum.
           <br />
-          Wiele połączeń.
+          Dolor sit amet.
         </h2>
         <p data-reveal>
-          Dotknij wybranej strefy budynku. Zobacz, jak łączą się nasze
-          kompetencje i gdzie zacząć rozmowę o Twojej inwestycji.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
       <div className="explorer-shell">
@@ -309,7 +309,7 @@ export function Catalog() {
             type="search"
             value={query}
             onChange={(e) => update(e.target.value, area)}
-            placeholder="Np. XR+, bramy, Skyline"
+            placeholder="Np. Produkt demo 01"
             autoComplete="off"
           />
         </div>
@@ -379,23 +379,22 @@ export function Catalog() {
         </div>
       )}
       <p className="source-note">
-        Fotografie w katalogu pokazują produkt XR+ lub obszar zastosowania, nie
-        wszystkie wymienione modele. „Katalog źródłowy” prowadzi do działającego
-        serwisu Winterwarm.
+        Ilustracje AI i nazwy produktów są przykładowe. Nie przedstawiają
+        rzeczywistych produktów ani ofert handlowych.
       </p>
     </section>
   );
 }
-const models: [string, number, number, number][] = [
-  ["XR 10+", 12.5, 2750, 38],
-  ["XR 20+", 20.7, 4000, 39],
-  ["XR 30+", 28.8, 4200, 40],
-  ["XR 40+", 41.1, 5400, 78],
-  ["XR 50+", 50.7, 8000, 80],
-  ["XR 60+", 61.2, 8000, 82],
-  ["XR 80+", 68.6, 10200, 185],
-  ["XR 100+", 86.9, 10700, 195],
-  ["XR 120+", 105.6, 13000, 215],
+const models: [string, string, string, string][] = [
+  ["Model demo 01", "—", "—", "—"],
+  ["Model demo 02", "—", "—", "—"],
+  ["Model demo 03", "—", "—", "—"],
+  ["Model demo 04", "—", "—", "—"],
+  ["Model demo 05", "—", "—", "—"],
+  ["Model demo 06", "—", "—", "—"],
+  ["Model demo 07", "—", "—", "—"],
+  ["Model demo 08", "—", "—", "—"],
+  ["Model demo 09", "—", "—", "—"],
 ];
 export function ModelTable() {
   const [model, setModel] = useState("");
@@ -404,8 +403,8 @@ export function ModelTable() {
       <div className="section-head">
         <h2>Porównaj modele.</h2>
         <p>
-          Wybrane parametry z opublikowanej karty XR+. To porównanie, nie
-          automatyczny dobór mocy do budynku.
+          Przykładowa tabela szablonu. Nie zawiera danych technicznych
+          rzeczywistych produktów ani rekomendacji doboru.
         </p>
       </div>
       <div className="model-control">
@@ -433,16 +432,18 @@ export function ModelTable() {
         className="table-scroll"
         tabIndex={0}
         role="region"
-        aria-label="Parametry modeli XR+"
+        aria-label="Tabela demonstracyjna"
       >
         <table>
-          <caption>Winterwarm XR+ — wybrane dane techniczne</caption>
+          <caption>
+            Tabela demonstracyjna — brak rzeczywistych parametrów
+          </caption>
           <thead>
             <tr>
               <th scope="col">Model</th>
-              <th scope="col">Moc znamionowa</th>
-              <th scope="col">Strumień powietrza*</th>
-              <th scope="col">Masa</th>
+              <th scope="col">Parametr 01</th>
+              <th scope="col">Parametr 02</th>
+              <th scope="col">Parametr 03</th>
             </tr>
           </thead>
           <tbody>
@@ -453,20 +454,17 @@ export function ModelTable() {
                 className={model === n ? "selected" : undefined}
               >
                 <th scope="row">{n}</th>
-                <td>{String(kw).replace(".", ",")} kW</td>
-                <td>{air} m³/h</td>
-                <td>{kg} kg</td>
+                <td>{kw}</td>
+                <td>{air}</td>
+                <td>{kg}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
       <p className="source-note">
-        *Strumień powietrza uwzględnia przyrost temperatury. Dane należy
-        potwierdzić w aktualnej dokumentacji przed projektowaniem.{" "}
-        <a href="https://winterwarm.pl/nagrzewnica-winterwarm-xr/">
-          Pełna karta źródłowa ↗
-        </a>
+        Dane demonstracyjne — nie używaj tej tabeli do projektowania.
+        <a href="/produkty">Zobacz katalog demo ↗</a>
       </p>
     </section>
   );

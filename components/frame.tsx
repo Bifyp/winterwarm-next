@@ -17,20 +17,20 @@ export default function Frame({
       <footer className="footer wrap">
         <div className="footer-top">
           <a href="/">
-            <img className="logo" src={data.assets.logo} alt="Winterwarm" />
+            <span className="logo logo-text">ЛОГО</span>
           </a>
           <p>
-            ul. Wiejska 32a, Jasin
+            Lorem ipsum dolor sit amet
             <br />
-            62-020 Swarzędz
+            Dane demonstracyjne
           </p>
           <p>
-            Poniedziałek–piątek
+            Szablon demonstracyjny
             <br />
-            8:00–16:00
+            Lorem ipsum
           </p>
-          <a className="link" href="mailto:winterwarm@winterwarm.pl">
-            winterwarm@winterwarm.pl
+          <a className="link" href="/kontakt">
+            Kontakt demonstracyjny
           </a>
         </div>
         <div className="footer-links">
@@ -47,12 +47,8 @@ export default function Frame({
             </a>
           ))}
         </div>
-        <a
-          className="footer-name"
-          href="/"
-          aria-label="Winterwarm, strona główna"
-        >
-          Winterwarm.
+        <a className="footer-name" href="/" aria-label="ЛОГО — strona główna">
+          ЛОГО
         </a>
         <div className="footer-bottom">
           <p>

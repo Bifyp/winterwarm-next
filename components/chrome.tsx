@@ -95,8 +95,8 @@ export default function Chrome({ slug }: { slug: string }) {
           </span>
         </div>
         <div className="header wrap">
-          <a href="/" aria-label="Winterwarm, strona główna">
-            <img className="logo" src={data.assets.logo} alt="Winterwarm" />
+          <a href="/" aria-label="ЛОГО — strona główna">
+            <span className="logo logo-text">ЛОГО</span>
           </a>
           <nav
             className={"nav" + (menu ? " open" : "")}
@@ -196,7 +196,7 @@ export default function Chrome({ slug }: { slug: string }) {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Np. ogrzewanie, Skyline, kontakt"
+            placeholder="Np. produkt demo, kontakt"
             autoComplete="off"
           />
         </form>
@@ -245,9 +245,9 @@ export default function Chrome({ slug }: { slug: string }) {
           </button>
         </div>
         <p>
-          Dane briefu pozostają w pamięci karty do chwili wysłania. „Wyślij
-          zapytanie” przekazuje dane przez serwer i usługę Resend do zespołu.
-          Cloudflare Turnstile i licznik antyspamowy chronią formularz.
+          To formularz demonstracyjny. Wysyłka przez serwer jest wyłączona. Dane
+          briefu pozostają w pamięci otwartej karty przeglądarki. Nie wpisuj
+          prawdziwych danych osobowych.
         </p>
         <p>
           „Otwórz e-mail” przekazuje przygotowaną wiadomość do Twojej aplikacji

@@ -14,14 +14,14 @@ export default function Content() {
       <section className="inner-hero wrap">
         <div className="inner-title">
           <h1 data-reveal="">
-            {"Budynek."}
+            {"Lorem ipsum."}
             <br />
-            {"Rozwiązania."}
+            {"Lorem ipsum."}
           </h1>
           <div>
             <p data-reveal="">
               {
-                "Ogrzewanie, powietrze, dostęp i światło. Wybierz obszar, od którego chcesz zacząć."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod."
               }
             </p>
             <a className="btn" href="/projekt">
@@ -44,12 +44,12 @@ export default function Content() {
       <section className="wrap section related">
         <div className="section-head">
           <h2 data-reveal="">
-            {"Trzy obszary."}
+            {"Lorem ipsum."}
             <br />
-            {"Jeden budynek."}
+            {"Lorem ipsum."}
           </h2>
           <p data-reveal="">
-            {"Przejdź od pojedynczego urządzenia do potrzeb całego obiektu."}
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
           </p>
         </div>
         <a className="related-row" data-reveal="" href="/hvac">
@@ -60,7 +60,7 @@ export default function Content() {
             loading="eager"
             src="/assets/ai-workshop-v1.webp"
           />
-          <h3>{"HVAC"}</h3>
+          <h3>{"Lorem ipsum."}</h3>
           <span aria-hidden="true">{"↗"}</span>
         </a>
         <a className="related-row" data-reveal="" href="/drzwi-bramy">
@@ -71,56 +71,56 @@ export default function Content() {
             loading="eager"
             src="/assets/ai-doors-v1.webp"
           />
-          <h3>{"Drzwi i bramy"}</h3>
+          <h3>{"Lorem ipsum."}</h3>
           <span aria-hidden="true">{"↗"}</span>
         </a>
         <a className="related-row" data-reveal="" href="/oswietlenie">
           <img
-            alt="Koncepcyjna hala z oświetleniem LED — ilustracja AI, nie zdjęcie modelu Skyline"
+            alt="Koncepcyjna hala z oświetleniem LED — ilustracja AI, instalacja fikcyjna"
             className=""
             decoding="async"
             loading="eager"
             src="/assets/ai-lighting-v1.webp"
           />
-          <h3>{"Oświetlenie LED"}</h3>
+          <h3>{"Lorem ipsum."}</h3>
           <span aria-hidden="true">{"↗"}</span>
         </a>
       </section>
       <section className="wrap section process">
         <div className="section-head">
           <h2 data-reveal="">
-            {"Od rozmowy"}
+            {"Lorem ipsum."}
             <br />
-            {"do działania."}
+            {"Lorem ipsum."}
           </h2>
           <p data-reveal="">
             {
-              "Punkt wyjścia to Twój obiekt. Dobór urządzeń wymaga analizy warunków i potrzeb, a nie samej powierzchni."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et."
             }
           </p>
         </div>
         <div className="process-flow">
           <article data-reveal="">
-            <h3>{"Poznajemy obiekt"}</h3>
+            <h3>{"Lorem ipsum."}</h3>
             <p>
               {
-                "Nowa inwestycja czy modernizacja? Opowiedz o funkcji budynku, istniejących instalacjach i warunkach pracy."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
               }
             </p>
           </article>
           <article data-reveal="">
-            <h3>{"Dobieramy rozwiązanie"}</h3>
+            <h3>{"Dolor sit amet."}</h3>
             <p>
               {
-                "Zespół analizuje potrzeby i zakres prac. Ustalamy urządzenia, układ instalacji oraz kolejne kroki."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
               }
             </p>
           </article>
           <article data-reveal="">
-            <h3>{"Wspieramy wdrożenie"}</h3>
+            <h3>{"Lorem ipsum."}</h3>
             <p>
               {
-                "Dostawa, montaż i serwis. Zakres oraz warunki współpracy potwierdzamy indywidualnie w ofercie."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor."
               }
             </p>
           </article>
@@ -128,15 +128,13 @@ export default function Content() {
       </section>
       <section className="wrap closing section">
         <h2 data-reveal="">
-          {"Twój obiekt."}
+          {"Lorem ipsum."}
           <br />
-          {"Porozmawiajmy."}
+          {"Lorem ipsum."}
         </h2>
         <div data-reveal="">
           <p>
-            {
-              "Wybierz obszar, opisz inwestycję i przygotuj wiadomość do właściwego zespołu."
-            }
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do."}
           </p>
           <a className="btn" href="/projekt">
             {"Zacznij projekt"}

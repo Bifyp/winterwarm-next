@@ -66,8 +66,8 @@ for (const width of [1440, 768, 390])
 test("catalog filters, empty state and URL", async ({ page }) => {
   await openDemo(page, "/produkty?obszar=LED");
   await expect(page.locator(".catalog-item")).toHaveCount(7);
-  await page.fill("#catalog-search", "Skyline");
-  await expect(page.locator(".catalog-item")).toHaveCount(2);
+  await page.fill("#catalog-search", "Produkt demo 16");
+  await expect(page.locator(".catalog-item")).toHaveCount(1);
   await page.fill("#catalog-search", "not-a-product");
   await expect(page.locator("#catalog-empty")).toBeVisible();
   await page.getByRole("button", { name: "Pokaż wszystko" }).click();
@@ -81,14 +81,14 @@ test("solution tabs support keyboard", async ({ page }) => {
     "aria-selected",
     "true",
   );
-  await expect(page.locator("#solution-title")).toContainText("Swobodny ruch.");
+  await expect(page.locator("#solution-title")).toContainText("Lorem ipsum.");
 });
 test("search dialog opens and escapes to trigger", async ({ page }) => {
   await openDemo(page, "/");
   const button = page.getByRole("button", { name: "Szukaj w serwisie" });
   await button.click();
-  await page.fill("#site-query", "Skyline");
-  await expect(page.locator("#search-results")).toContainText("Skyline");
+  await page.fill("#site-query", "Produkt demo");
+  await expect(page.locator("#search-results")).toContainText("Produkt demo");
   await page.keyboard.press("Escape");
   await expect(page.locator("#site-search")).not.toBeVisible();
   await expect(button).toBeFocused();
@@ -114,7 +114,7 @@ test("brief prefill and honest mail fallback", async ({ page }) => {
   await expect(page.locator("#project-summary")).toContainText("LED");
   await expect(page.locator("#project-send")).toHaveAttribute(
     "href",
-    /^mailto:winled@winterwarm.pl/,
+    /^mailto:demo@example.com/,
   );
   await expect(page.locator("#project-result")).toContainText("nie wysyła");
 });
@@ -366,4 +366,24 @@ test("photo source links follow changing solution photographs and hide behind no
       )
       .first(),
   ).toHaveAttribute("href", "/assets/ai-lighting-v1.webp");
+});
+
+test("neutral template has literal logo, Lorem ipsum and no company contacts", async ({
+  page,
+}) => {
+  for (const path of paths) {
+    await openDemo(page, path);
+    await expect(page.locator("header .logo-text")).toHaveText("ЛОГО");
+    await expect(page.locator("footer .logo-text")).toHaveText("ЛОГО");
+    await expect(page.locator(".footer-name")).toHaveText("ЛОГО");
+    const visible = await page.locator("body").innerText();
+    expect(visible).not.toMatch(
+      /Winterwarm|Skyline|XR\+|Wiśniowski|Krispol|\+48\s*60|Wiejska|Kobylnicka|Swarzędz|Jasin|Bugaj/i,
+    );
+    expect(
+      await page.locator('a[href*="winterwarm.pl"], a[href^="tel:"]').count(),
+    ).toBe(0);
+    if (!["/projekt", "/prywatnosc"].includes(path))
+      await expect(page.locator("main")).toContainText("Lorem ipsum");
+  }
 });

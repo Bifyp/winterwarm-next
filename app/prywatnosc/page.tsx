@@ -1,64 +1,43 @@
 import Frame from "@/components/frame";
-import { indexable } from "@/lib/site";
 export const metadata = {
-  title: "Prywatność formularza",
-  robots: { index: indexable, follow: indexable },
+  title: "Prywatność demonstracji",
+  robots: { index: false, follow: false },
   alternates: { canonical: "/prywatnosc" },
 };
 export default function Page() {
   return (
     <Frame slug="prywatnosc">
       <article className="privacy-copy">
-        <h1>Twoje dane.</h1>
+        <h1>Prywatność demonstracji.</h1>
         <p>
-          Ta informacja opisuje działanie formularza zapytania w tym serwisie.
-          Kontakt w sprawie danych:{" "}
-          <a href="mailto:winterwarm@winterwarm.pl">winterwarm@winterwarm.pl</a>
-          .
+          To szablon demonstracyjny, nie strona rzeczywistej firmy. Nie wpisuj
+          prawdziwych danych osobowych ani informacji poufnych.
         </p>
-        <h2>Co przekazujesz</h2>
+        <h2>Formularz przykładowy</h2>
         <p>
-          Imię i firmę, e-mail oraz podane informacje o inwestycji przetwarzamy,
-          aby odpowiedzieć na zapytanie. Nie podawaj danych wrażliwych ani
-          informacji, których nie potrzebujemy do pierwszej rozmowy.
+          Wysyłka przez serwer jest wyłączona. Dane wpisane do formularza
+          pozostają w pamięci otwartej karty przeglądarki. Podgląd nie wysyła
+          ich do firmy ani do usługi pocztowej.
         </p>
-        <h2>Jak działa wysyłka</h2>
+        <h2>Podgląd, plik i e-mail</h2>
         <p>
-          Przed wysłaniem dane są przechowywane jedynie w pamięci karty
-          przeglądarki. Gdy wybierasz „Wyślij zapytanie”, serwer Vercel
-          przekazuje treść usłudze pocztowej Resend i odbiorcy z zespołu
-          Winterwarm. Dane stają się częścią korespondencji e-mail. Komunikat o
-          przyjęciu potwierdza przyjęcie przez serwer pocztowy, nie odczyt ani
-          dostarczenie do skrzynki.
+          Możesz przygotować podgląd lub pobrać brief na urządzenie. Link
+          „Otwórz e-mail” może otworzyć aplikację pocztową z przykładowym
+          adresem demo@example.com. To nie jest kontakt do autorów ani firmy;
+          nie wysyłaj tam wiadomości.
         </p>
+        <h2>Przechowywanie i hosting</h2>
         <p>
-          Jeżeli wysyłka nie jest skonfigurowana, możesz przygotować e-mail w
-          swojej aplikacji lub pobrać brief. Sam podgląd nie przesyła danych z
-          formularza na nasz serwer.
+          Kod formularza nie zapisuje treści w cookies ani localStorage. Hosting
+          może prowadzić własne logi techniczne. Kod szablonu nie zawiera
+          narzędzi reklamowych ani analitycznych.
         </p>
-        <h2>Ochrona przed spamem</h2>
+        <h2>Materiały demonstracyjne</h2>
         <p>
-          Aktywny formularz używa Cloudflare Turnstile. Usługa weryfikuje
-          żądanie i może przetwarzać dane techniczne urządzenia. W Upstash
-          zapisujemy wyłącznie krótkotrwały licznik prób przypisany do skrótu
-          HMAC adresu IP; licznik wygasa po 10 minutach. Nie zapisujemy tam
-          treści wiadomości ani jawnego adresu IP. Operator hostingu może
-          prowadzić własne logi techniczne.
-        </p>
-        <h2>Cookies i inne serwisy</h2>
-        <p>
-          Ten kod nie zawiera narzędzi reklamowych ani analitycznych i nie
-          zapisuje formularza w cookies lub localStorage. Linki do map i
-          katalogów prowadzą do zewnętrznych serwisów, które stosują własne
-          zasady prywatności.
-        </p>
-        <h2>Kontakt i prawa</h2>
-        <p>
-          W sprawach dostępu do danych, sprostowania, usunięcia lub ograniczenia
-          przetwarzania skontaktuj się pod adresem powyżej. Szczegóły
-          administratora, podstaw prawnych, okresu przechowywania korespondencji
-          i transferów danych należy potwierdzić w zatwierdzonej polityce
-          Winterwarm przed uruchomieniem formularza.
+          Teksty Lorem ipsum, nazwy produktów, tabele i kontakty są przykładowe.
+          Ilustracje zostały wygenerowane przy użyciu AI. Przed użyciem szablonu
+          jako prawdziwej strony należy przygotować własne treści, dane
+          kontaktowe i właściwą politykę prywatności.
         </p>
       </article>
     </Frame>

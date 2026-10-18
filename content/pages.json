@@ -1,62 +1,62 @@
 {
   "index": {
-    "title": "Technologia, która pracuje.",
-    "description": "HVAC, drzwi i bramy oraz oświetlenie LED dla Twojej inwestycji. Winterwarm Polska."
+    "title": "Lorem ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "rozwiazania": {
-    "title": "Rozwiązania dla budynku",
-    "description": "Poznaj HVAC, drzwi i bramy oraz oświetlenie LED Winterwarm Polska."
+    "title": "Rozwiązania",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "hvac": {
-    "title": "HVAC dla Twojego obiektu",
-    "description": "Ogrzewanie nadmuchowe, promiennikowe, wentylacja i chłodzenie. Poznaj ofertę HVAC Winterwarm."
+    "title": "HVAC",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "drzwi-bramy": {
-    "title": "Drzwi, bramy i doki",
-    "description": "Stolarka, strefy przeładunkowe i ochrona przeciwpożarowa z oferty Winterwarm."
+    "title": "Drzwi i bramy",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "oswietlenie": {
     "title": "Oświetlenie LED",
-    "description": "Skyline, NEXTGEN, DATALUX, Prefab i Bandraster. Poznaj oświetlenie LED Winterwarm."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "produkty": {
-    "title": "Katalog produktów i systemów",
-    "description": "Wyszukaj HVAC, drzwi, bramy i oświetlenie LED. Katalog rozwiązań Winterwarm Polska."
+    "title": "Katalog demonstracyjny",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "xr-plus": {
-    "title": "Nagrzewnica Winterwarm XR+",
-    "description": "Cechy, parametry i porównanie dziewięciu modeli nagrzewnic gazowych Winterwarm XR+."
+    "title": "Produkt demo 01",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "skyline": {
-    "title": "System oświetlenia LED Skyline",
-    "description": "Modułowe oprawy liniowe Skyline. Cechy, parametry i kontakt do działu LED Winterwarm."
+    "title": "Produkt demo 02",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "bramy-doki": {
-    "title": "Bramy przemysłowe i doki",
-    "description": "Bramy Wiśniowski i Krispol oraz doki Wiśniowski z oferty Winterwarm Polska."
+    "title": "Bramy i doki",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "obiekty": {
-    "title": "Rozwiązania według obiektu",
-    "description": "Przewodnik po potrzebach hali, magazynu, warsztatu, handlu i obiektu sportowego."
+    "title": "Obiekty",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "o-nas": {
-    "title": "O Winterwarm Polska",
-    "description": "Poznaj zespół, zakres współpracy i lokalizacje Winterwarm Polska."
+    "title": "O nas",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "realizacje": {
-    "title": "Przestrzenie i instalacje",
-    "description": "Galeria koncepcyjnych ilustracji AI przestrzeni i instalacji — nie rzeczywistych realizacji firmy."
+    "title": "Galeria AI",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "kontakt": {
-    "title": "Kontakt i lokalizacje",
-    "description": "Telefony i adresy działów HVAC, przegród budowlanych i LED. Biuro Jasin, magazyn Bugaj."
+    "title": "Kontakt demonstracyjny",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "projekt": {
-    "title": "Brief Twojej inwestycji",
-    "description": "Przygotuj zapytanie do zespołu Winterwarm. Wybierz obszar, opisz obiekt i otwórz gotowy e-mail."
+    "title": "Brief demonstracyjny",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "404": {
     "title": "Nie znaleziono strony",
-    "description": "Wróć do katalogu lub strony głównej Winterwarm."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
 }

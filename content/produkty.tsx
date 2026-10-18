@@ -13,28 +13,26 @@ export default function Content() {
     <>
       <section className="wrap catalog-intro">
         <h1 data-reveal="">
-          {"Znajdź"}
+          {"Lorem ipsum."}
           <br />
-          {"rozwiązanie."}
+          {"Lorem ipsum."}
         </h1>
         <p data-reveal="">
           {
-            "Przegląd rodzin produktów i systemów. Wybierz obszar lub wpisz nazwę. Dobór konkretnego wariantu potwierdzimy w rozmowie."
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et."
           }
         </p>
       </section>
       <Catalog />
       <section className="wrap closing section">
         <h2 data-reveal="">
-          {"Twój obiekt."}
+          {"Lorem ipsum."}
           <br />
-          {"Porozmawiajmy."}
+          {"Lorem ipsum."}
         </h2>
         <div data-reveal="">
           <p>
-            {
-              "Wybierz obszar, opisz inwestycję i przygotuj wiadomość do właściwego zespołu."
-            }
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do."}
           </p>
           <a className="btn" href="/projekt">
             {"Zacznij projekt"}

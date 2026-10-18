@@ -182,7 +182,7 @@ test("accepted mail uses fixed subject, safe reply-to and idempotency key", asyn
   const body = JSON.parse(String(mail.options?.body));
   assert.deepEqual(body.to, ["hvac@example.com"]);
   assert.equal(body.reply_to, "test@example.com");
-  assert.equal(body.subject, "Zapytanie o inwestycję | Winterwarm");
+  assert.equal(body.subject, "Zapytanie o inwestycję | ЛОГО");
   assert.equal(
     (mail.options?.headers as Record<string, string>)["Idempotency-Key"],
     "winterwarm-contact/" + valid.requestId,

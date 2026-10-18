@@ -23,7 +23,7 @@ export default function ProjectForm({ configured }: { configured: boolean }) {
     [message, setMessage] = useState(""),
     [success, setSuccess] = useState(false),
     [prepared, setPrepared] = useState(""),
-    [recipient, setRecipient] = useState("winterwarm@winterwarm.pl");
+    [recipient, setRecipient] = useState("demo@example.com");
   useEffect(() => {
     const p = new URLSearchParams(location.search);
     const need = f.current?.querySelector<HTMLInputElement>(
@@ -77,11 +77,11 @@ export default function ProjectForm({ configured }: { configured: boolean }) {
     const email =
       v.needs.length === 1
         ? {
-            HVAC: "hvac@winterwarm.pl",
-            Dostęp: "bramy@winterwarm.pl",
-            LED: "winled@winterwarm.pl",
-          }[v.needs[0]] || "winterwarm@winterwarm.pl"
-        : "winterwarm@winterwarm.pl";
+            HVAC: "demo@example.com",
+            Dostęp: "demo@example.com",
+            LED: "demo@example.com",
+          }[v.needs[0]] || "demo@example.com"
+        : "demo@example.com";
     setPrepared(briefText(v));
     setRecipient(email);
     setTimeout(() => {
@@ -341,7 +341,7 @@ export default function ProjectForm({ configured }: { configured: boolean }) {
                 "mailto:" +
                 recipient +
                 "?subject=" +
-                encodeURIComponent("Zapytanie o inwestycję | Winterwarm") +
+                encodeURIComponent("Zapytanie o inwestycję | ЛОГО") +
                 "&body=" +
                 encodeURIComponent(prepared)
               }
@@ -359,7 +359,7 @@ export default function ProjectForm({ configured }: { configured: boolean }) {
                 );
                 const a = document.createElement("a");
                 a.href = u;
-                a.download = "Winterwarm-brief.txt";
+                a.download = "ЛОГО-brief.txt";
                 a.click();
                 setTimeout(() => URL.revokeObjectURL(u), 2000);
               }}

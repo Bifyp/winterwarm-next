@@ -1,222 +1,112 @@
 {
   "search": [
     {
-      "name": "Technologia, która pracuje.",
-      "description": "HVAC, drzwi i bramy oraz oświetlenie LED dla Twojej inwestycji. Winterwarm Polska.",
+      "name": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "/"
     },
     {
-      "name": "Rozwiązania dla budynku",
-      "description": "Poznaj HVAC, drzwi i bramy oraz oświetlenie LED Winterwarm Polska.",
+      "name": "Rozwiązania",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "/rozwiazania"
     },
     {
-      "name": "HVAC dla Twojego obiektu",
-      "description": "Ogrzewanie nadmuchowe, promiennikowe, wentylacja i chłodzenie. Poznaj ofertę HVAC Winterwarm.",
+      "name": "HVAC",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "/hvac"
     },
     {
-      "name": "Drzwi, bramy i doki",
-      "description": "Stolarka, strefy przeładunkowe i ochrona przeciwpożarowa z oferty Winterwarm.",
+      "name": "Drzwi i bramy",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "/drzwi-bramy"
     },
     {
       "name": "Oświetlenie LED",
-      "description": "Skyline, NEXTGEN, DATALUX, Prefab i Bandraster. Poznaj oświetlenie LED Winterwarm.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "/oswietlenie"
     },
     {
-      "name": "Katalog produktów i systemów",
-      "description": "Wyszukaj HVAC, drzwi, bramy i oświetlenie LED. Katalog rozwiązań Winterwarm Polska.",
+      "name": "Katalog demonstracyjny",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "/produkty"
     },
     {
-      "name": "Nagrzewnica Winterwarm XR+",
-      "description": "Cechy, parametry i porównanie dziewięciu modeli nagrzewnic gazowych Winterwarm XR+.",
+      "name": "Produkt demo 01",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "/xr-plus"
     },
     {
-      "name": "System oświetlenia LED Skyline",
-      "description": "Modułowe oprawy liniowe Skyline. Cechy, parametry i kontakt do działu LED Winterwarm.",
+      "name": "Produkt demo 02",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "/skyline"
-    },
-    {
-      "name": "Bramy przemysłowe i doki",
-      "description": "Bramy Wiśniowski i Krispol oraz doki Wiśniowski z oferty Winterwarm Polska.",
-      "url": "/bramy-doki"
-    },
-    {
-      "name": "Rozwiązania według obiektu",
-      "description": "Przewodnik po potrzebach hali, magazynu, warsztatu, handlu i obiektu sportowego.",
-      "url": "/obiekty"
-    },
-    {
-      "name": "O Winterwarm Polska",
-      "description": "Poznaj zespół, zakres współpracy i lokalizacje Winterwarm Polska.",
-      "url": "/o-nas"
-    },
-    {
-      "name": "Przestrzenie i instalacje",
-      "description": "Galeria koncepcyjnych ilustracji AI przestrzeni i instalacji — nie rzeczywistych realizacji firmy.",
-      "url": "/realizacje"
-    },
-    {
-      "name": "Kontakt i lokalizacje",
-      "description": "Telefony i adresy działów HVAC, przegród budowlanych i LED. Biuro Jasin, magazyn Bugaj.",
-      "url": "/kontakt"
-    },
-    {
-      "name": "Brief Twojej inwestycji",
-      "description": "Przygotuj zapytanie do zespołu Winterwarm. Wybierz obszar, opisz obiekt i otwórz gotowy e-mail.",
-      "url": "/projekt"
-    },
-    {
-      "name": "Winterwarm XR+",
-      "description": "Gazowe nagrzewnice niekondensacyjne do budynków przemysłowych i magazynowych.",
-      "url": "/xr-plus"
-    },
-    {
-      "name": "Winterwarm HR",
-      "description": "Kondensacyjne nagrzewnice z oferty ogrzewania nadmuchowego.",
-      "url": "https://winterwarm.pl/nagrzewnica-winterwarm-hr/"
-    },
-    {
-      "name": "Winterwarm EH",
-      "description": "Nagrzewnice elektryczne. Szczegóły modeli w katalogu źródłowym.",
-      "url": "https://winterwarm.pl/nagrzewnica-winterwarm-eh/"
-    },
-    {
-      "name": "QwikShift",
-      "description": "Rozwiązania hybrydowe z gamy nagrzewnic Winterwarm.",
-      "url": "https://winterwarm.pl/nagrzewnice-hybrydowe-quikshift/"
-    },
-    {
-      "name": "Winterwarm WWH",
-      "description": "Wodne nagrzewnice z rodziny WWH. Dostępne także rodziny LT i JET.",
-      "url": "https://winterwarm.pl/nagrzewnica-winterwarm-wwh/"
-    },
-    {
-      "name": "Promienniki",
-      "description": "Ogrzewanie promiennikowe, w tym promienniki ceramiczne i rurowe.",
-      "url": "https://winterwarm.pl/ogrzewanie-promiennikowe/"
-    },
-    {
-      "name": "Wentylacja",
-      "description": "Oferta urządzeń do wentylacji obiektów.",
-      "url": "https://winterwarm.pl/wentylacja/"
-    },
-    {
-      "name": "Chłodzenie",
-      "description": "Rozwiązania chłodzące, w tym klimatyzery ewaporacyjne Wintercooler.",
-      "url": "https://winterwarm.pl/chlodzenie/"
-    },
-    {
-      "name": "Urządzenia wspomagające",
-      "description": "Uzupełnienie systemów, w tym destratyfikacja i wentylatory sufitowe.",
-      "url": "https://winterwarm.pl/urzadzenia-wspomagajace/"
     },
     {
       "name": "Bramy i doki",
-      "description": "Bramy segmentowe, rolowane i doki dla produkcji, logistyki i transportu.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "url": "/bramy-doki"
     },
     {
-      "name": "Drzwi stalowe",
-      "description": "Oferta stalowej stolarki drzwiowej.",
-      "url": "https://winterwarm.pl/przegrody-drzwi-bramy-doki/drzwi-stalowe/"
+      "name": "Obiekty",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "url": "/obiekty"
     },
     {
-      "name": "Drzwi wewnętrzne",
-      "description": "Rozwiązania do wnętrz i komunikacji w budynku.",
-      "url": "https://winterwarm.pl/przegrody-drzwi-bramy-doki/drzwi-wewnetrzne/"
+      "name": "O nas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "url": "/o-nas"
     },
     {
-      "name": "Bramy szybkobieżne PCV",
-      "description": "Rodzina bram szybkobieżnych w ofercie przegród budowlanych.",
-      "url": "https://winterwarm.pl/przegrody-drzwi-bramy-doki/bramy-szybkobiezne-pcv/"
+      "name": "Galeria AI",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "url": "/realizacje"
     },
     {
-      "name": "Bramy przeciwpożarowe",
-      "description": "Rozwiązania przeznaczone do ochrony przeciwpożarowej.",
-      "url": "https://winterwarm.pl/przegrody-drzwi-bramy-doki/bramy-przeciw-pozarowe/"
+      "name": "Kontakt demonstracyjny",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "url": "/kontakt"
     },
     {
-      "name": "Oddymianie",
-      "description": "Klapy, wyłazy i świetliki z oferty Winterwarm.",
-      "url": "https://winterwarm.pl/przegrody-drzwi-bramy-doki/oddymianie/"
-    },
-    {
-      "name": "Skyline",
-      "description": "Modułowy system liniowych opraw LED do profili WLL600 / WLL610.",
-      "url": "/skyline"
-    },
-    {
-      "name": "NEXTGEN",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
-      "url": "https://winterwarm.pl/nextgen/"
-    },
-    {
-      "name": "DATALUX.LT",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
-      "url": "https://winterwarm.pl/datalux-lt/"
-    },
-    {
-      "name": "DATALUX.AC",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
-      "url": "https://winterwarm.pl/datalux-ac/"
-    },
-    {
-      "name": "Prefab",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
-      "url": "https://winterwarm.pl/prefab/"
-    },
-    {
-      "name": "Bandraster",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
-      "url": "https://winterwarm.pl/bandraster/"
-    },
-    {
-      "name": "Profil Skyline",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
-      "url": "https://winterwarm.pl/profil-skyline/"
+      "name": "Brief demonstracyjny",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "url": "/projekt"
     }
   ],
   "objects": [
     [
       "hala",
       "Hala i magazyn",
-      "Ogrzewanie przestrzeni, wentylacja oraz organizacja przeładunku.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.",
       "warehouse",
-      "Wysokość hali, powierzchnia, praca zmianowa, częstotliwość otwierania bram.",
+      "Lorem ipsum dolor sit amet.",
       "HVAC,Dostęp,LED"
     ],
     [
       "warsztat",
       "Warsztat i garaż",
-      "Warunki pracy, dostęp pojazdów i oświetlenie stanowisk.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.",
       "hall",
-      "Liczba stanowisk, wymiary i cykle bram, oczekiwana temperatura.",
+      "Lorem ipsum dolor sit amet.",
       "HVAC,Dostęp,LED"
     ],
     [
       "handel",
       "Handel i usługi",
-      "Warunki w strefie klientów i zaplecza oraz oświetlenie przestrzeni.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.",
       "showroom",
-      "Godziny otwarcia, układ pomieszczeń, funkcje stref i istniejące instalacje.",
+      "Lorem ipsum dolor sit amet.",
       "HVAC,LED"
     ],
     [
       "sport",
       "Obiekt sportowy",
-      "Ogrzewanie przestrzeni użytkowanych w zmiennym rytmie.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.",
       "hall",
-      "Wymiary, wysokość, harmonogram użytkowania i oczekiwane warunki.",
+      "Lorem ipsum dolor sit amet.",
       "HVAC,LED"
     ]
   ],
   "assets": {
-    "logo": "/assets/5ee714917810.svg",
+    "logo": "/assets/logo-placeholder.svg",
     "hero": "/assets/ai-hero-v1.webp",
     "hall": "/assets/ai-workshop-v1.webp",
     "xr": "/assets/ai-heater-v1.webp",
@@ -229,198 +119,198 @@
   },
   "catalog": [
     {
-      "name": "Winterwarm XR+",
+      "name": "Produkt demo 01",
       "url": "/xr-plus",
-      "description": "Gazowe nagrzewnice niekondensacyjne do budynków przemysłowych i magazynowych.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "HVAC",
       "group": "Ogrzewanie",
       "image": "/assets/ai-heater-v1.webp",
       "id": "xr"
     },
     {
-      "name": "Winterwarm HR",
-      "url": "https://winterwarm.pl/nagrzewnica-winterwarm-hr/",
-      "description": "Kondensacyjne nagrzewnice z oferty ogrzewania nadmuchowego.",
+      "name": "Produkt demo 02",
+      "url": "/xr-plus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "HVAC",
       "group": "Ogrzewanie",
       "image": "/assets/ai-workshop-v1.webp",
       "id": "hr"
     },
     {
-      "name": "Winterwarm EH",
-      "url": "https://winterwarm.pl/nagrzewnica-winterwarm-eh/",
-      "description": "Nagrzewnice elektryczne. Szczegóły modeli w katalogu źródłowym.",
+      "name": "Produkt demo 03",
+      "url": "/xr-plus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "HVAC",
       "group": "Ogrzewanie",
       "image": "/assets/ai-workshop-v1.webp",
       "id": "eh"
     },
     {
-      "name": "QwikShift",
-      "url": "https://winterwarm.pl/nagrzewnice-hybrydowe-quikshift/",
-      "description": "Rozwiązania hybrydowe z gamy nagrzewnic Winterwarm.",
+      "name": "Produkt demo 04",
+      "url": "/xr-plus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "HVAC",
       "group": "Ogrzewanie",
       "image": "/assets/ai-workshop-v1.webp",
       "id": "qwik"
     },
     {
-      "name": "Winterwarm WWH",
-      "url": "https://winterwarm.pl/nagrzewnica-winterwarm-wwh/",
-      "description": "Wodne nagrzewnice z rodziny WWH. Dostępne także rodziny LT i JET.",
+      "name": "Produkt demo 05",
+      "url": "/xr-plus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "HVAC",
       "group": "Ogrzewanie",
       "image": "/assets/ai-workshop-v1.webp",
       "id": "wwh"
     },
     {
-      "name": "Promienniki",
-      "url": "https://winterwarm.pl/ogrzewanie-promiennikowe/",
-      "description": "Ogrzewanie promiennikowe, w tym promienniki ceramiczne i rurowe.",
+      "name": "Produkt demo 06",
+      "url": "/xr-plus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "HVAC",
       "group": "Ogrzewanie",
       "image": "/assets/ai-warehouse-v1.webp",
       "id": "radiant"
     },
     {
-      "name": "Wentylacja",
-      "url": "https://winterwarm.pl/wentylacja/",
-      "description": "Oferta urządzeń do wentylacji obiektów.",
+      "name": "Produkt demo 07",
+      "url": "/xr-plus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "HVAC",
       "group": "Powietrze",
       "image": "/assets/ai-workshop-v1.webp",
       "id": "vent"
     },
     {
-      "name": "Chłodzenie",
-      "url": "https://winterwarm.pl/chlodzenie/",
-      "description": "Rozwiązania chłodzące, w tym klimatyzery ewaporacyjne Wintercooler.",
+      "name": "Produkt demo 08",
+      "url": "/xr-plus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "HVAC",
       "group": "Powietrze",
       "image": "/assets/ai-warehouse-v1.webp",
       "id": "cool"
     },
     {
-      "name": "Urządzenia wspomagające",
-      "url": "https://winterwarm.pl/urzadzenia-wspomagajace/",
-      "description": "Uzupełnienie systemów, w tym destratyfikacja i wentylatory sufitowe.",
+      "name": "Produkt demo 09",
+      "url": "/xr-plus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "HVAC",
       "group": "Powietrze",
       "image": "/assets/ai-workshop-v1.webp",
       "id": "support"
     },
     {
-      "name": "Bramy i doki",
+      "name": "Produkt demo 10",
       "url": "/bramy-doki",
-      "description": "Bramy segmentowe, rolowane i doki dla produkcji, logistyki i transportu.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "Dostęp",
       "group": "Bramy",
       "image": "/assets/ai-doors-v1.webp",
       "id": "gates"
     },
     {
-      "name": "Drzwi stalowe",
-      "url": "https://winterwarm.pl/przegrody-drzwi-bramy-doki/drzwi-stalowe/",
-      "description": "Oferta stalowej stolarki drzwiowej.",
+      "name": "Produkt demo 11",
+      "url": "/bramy-doki",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "Dostęp",
       "group": "Drzwi",
       "image": "/assets/ai-doors-v1.webp",
       "id": "steel"
     },
     {
-      "name": "Drzwi wewnętrzne",
-      "url": "https://winterwarm.pl/przegrody-drzwi-bramy-doki/drzwi-wewnetrzne/",
-      "description": "Rozwiązania do wnętrz i komunikacji w budynku.",
+      "name": "Produkt demo 12",
+      "url": "/bramy-doki",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "Dostęp",
       "group": "Drzwi",
       "image": "/assets/ai-doors-v1.webp",
       "id": "inner"
     },
     {
-      "name": "Bramy szybkobieżne PCV",
-      "url": "https://winterwarm.pl/przegrody-drzwi-bramy-doki/bramy-szybkobiezne-pcv/",
-      "description": "Rodzina bram szybkobieżnych w ofercie przegród budowlanych.",
+      "name": "Produkt demo 13",
+      "url": "/bramy-doki",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "Dostęp",
       "group": "Bramy",
       "image": "/assets/ai-doors-v1.webp",
       "id": "fast"
     },
     {
-      "name": "Bramy przeciwpożarowe",
-      "url": "https://winterwarm.pl/przegrody-drzwi-bramy-doki/bramy-przeciw-pozarowe/",
-      "description": "Rozwiązania przeznaczone do ochrony przeciwpożarowej.",
+      "name": "Produkt demo 14",
+      "url": "/bramy-doki",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "Dostęp",
       "group": "Ochrona",
       "image": "/assets/ai-doors-v1.webp",
       "id": "fire"
     },
     {
-      "name": "Oddymianie",
-      "url": "https://winterwarm.pl/przegrody-drzwi-bramy-doki/oddymianie/",
-      "description": "Klapy, wyłazy i świetliki z oferty Winterwarm.",
+      "name": "Produkt demo 15",
+      "url": "/bramy-doki",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "Dostęp",
       "group": "Ochrona",
       "image": "/assets/ai-doors-v1.webp",
       "id": "smoke"
     },
     {
-      "name": "Skyline",
+      "name": "Produkt demo 16",
       "url": "/skyline",
-      "description": "Modułowy system liniowych opraw LED do profili WLL600 / WLL610.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "LED",
       "group": "Oprawy",
       "image": "/assets/ai-lighting-v1.webp",
       "id": "sky"
     },
     {
-      "name": "NEXTGEN",
-      "url": "https://winterwarm.pl/nextgen/",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
+      "name": "Produkt demo 17",
+      "url": "/skyline",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "LED",
       "group": "Oprawy",
       "image": "/assets/ai-lighting-v1.webp",
       "id": "next"
     },
     {
-      "name": "DATALUX.LT",
-      "url": "https://winterwarm.pl/datalux-lt/",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
+      "name": "Produkt demo 18",
+      "url": "/skyline",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "LED",
       "group": "Oprawy",
       "image": "/assets/ai-lighting-v1.webp",
       "id": "lt"
     },
     {
-      "name": "DATALUX.AC",
-      "url": "https://winterwarm.pl/datalux-ac/",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
+      "name": "Produkt demo 19",
+      "url": "/skyline",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "LED",
       "group": "Oprawy",
       "image": "/assets/ai-lighting-v1.webp",
       "id": "ac"
     },
     {
-      "name": "Prefab",
-      "url": "https://winterwarm.pl/prefab/",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
+      "name": "Produkt demo 20",
+      "url": "/skyline",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "LED",
       "group": "Oprawy",
       "image": "/assets/ai-lighting-v1.webp",
       "id": "prefab"
     },
     {
-      "name": "Bandraster",
-      "url": "https://winterwarm.pl/bandraster/",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
+      "name": "Produkt demo 21",
+      "url": "/skyline",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "LED",
       "group": "Oprawy",
       "image": "/assets/ai-lighting-v1.webp",
       "id": "band"
     },
     {
-      "name": "Profil Skyline",
-      "url": "https://winterwarm.pl/profil-skyline/",
-      "description": "Rodzina z katalogu oświetlenia LED Winterwarm. Parametry i warianty w karcie źródłowej.",
+      "name": "Produkt demo 22",
+      "url": "/skyline",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et.",
       "area": "LED",
       "group": "Oprawy",
       "image": "/assets/ai-lighting-v1.webp",

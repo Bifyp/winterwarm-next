@@ -13,13 +13,13 @@ export default function Content() {
     <>
       <section className="wrap catalog-intro">
         <h1 data-reveal="">
-          {"Technologia."}
+          {"Lorem ipsum."}
           <br />
-          {"W praktyce."}
+          {"Lorem ipsum."}
         </h1>
         <p data-reveal="">
           {
-            "Galeria ilustracji wygenerowanych przy użyciu AI. Przedstawione obiekty i instalacje są fikcyjne — nie są realizacjami Winterwarm."
+            "Galeria ilustracji wygenerowanych przy użyciu AI. Przedstawione obiekty i instalacje są fikcyjne — nie dokumentują rzeczywistych realizacji."
           }
         </p>
       </section>
@@ -33,8 +33,8 @@ export default function Content() {
             src="/assets/ai-warehouse-v1.webp"
           />
           <figcaption>
-            <h2>{"Hale i magazyny"}</h2>
-            <p>{"Instalacje w przestrzeni składowania."}</p>
+            <h2>{"Lorem ipsum."}</h2>
+            <p>{"Lorem ipsum dolor sit."}</p>
             <a className="link" href="/hvac">
               {"Poznaj rozwiązania"}
             </a>
@@ -49,8 +49,8 @@ export default function Content() {
             src="/assets/ai-showroom-v1.webp"
           />
           <figcaption>
-            <h2>{"Przestrzenie handlowe"}</h2>
-            <p>{"Technologia w architekturze wnętrza."}</p>
+            <h2>{"Dolor sit amet."}</h2>
+            <p>{"Lorem ipsum dolor sit."}</p>
             <a className="link" href="/oswietlenie">
               {"Poznaj rozwiązania"}
             </a>
@@ -65,8 +65,8 @@ export default function Content() {
             src="/assets/ai-workshop-v1.webp"
           />
           <figcaption>
-            <h2>{"Produkcja"}</h2>
-            <p>{"Urządzenia w przestrzeni pracy."}</p>
+            <h2>{"Lorem ipsum."}</h2>
+            <p>{"Lorem ipsum dolor sit."}</p>
             <a className="link" href="/hvac">
               {"Poznaj rozwiązania"}
             </a>
@@ -81,8 +81,8 @@ export default function Content() {
             src="/assets/ai-doors-v1.webp"
           />
           <figcaption>
-            <h2>{"Strefy dostępu"}</h2>
-            <p>{"Wejścia i przejazdy w obiekcie."}</p>
+            <h2>{"Lorem ipsum."}</h2>
+            <p>{"Lorem ipsum dolor sit amet."}</p>
             <a className="link" href="/drzwi-bramy">
               {"Poznaj rozwiązania"}
             </a>
@@ -91,15 +91,13 @@ export default function Content() {
       </section>
       <section className="wrap closing section">
         <h2 data-reveal="">
-          {"Twój obiekt."}
+          {"Lorem ipsum."}
           <br />
-          {"Porozmawiajmy."}
+          {"Lorem ipsum."}
         </h2>
         <div data-reveal="">
           <p>
-            {
-              "Wybierz obszar, opisz inwestycję i przygotuj wiadomość do właściwego zespołu."
-            }
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do."}
           </p>
           <a className="btn" href="/projekt">
             {"Zacznij projekt"}

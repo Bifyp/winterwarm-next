@@ -14,17 +14,17 @@ export default function Content() {
       <section className="wrap brief-page">
         <div className="brief-intro">
           <h1 data-reveal="">
-            {"Twój kolejny"}
+            {"Lorem ipsum"}
             <br />
-            {"dobry projekt."}
+            {"dolor sit amet."}
           </h1>
           <p data-reveal="">
             {
-              "Opisz obiekt i potrzeby. Wyślij zapytanie do zespołu lub przygotuj e-mail. To brief do rozmowy, nie automatyczna wycena."
+              "To przykładowy formularz szablonu. Używaj wyłącznie fikcyjnych danych. Wysyłka przez serwer jest wyłączona."
             }
           </p>
           <a className="link" href="/kontakt">
-            {"Wolisz zadzwonić? Kontakty"}
+            {"Zobacz kontakt demonstracyjny"}
           </a>
         </div>
         <ProjectForm configured={isContactConfigured()} />

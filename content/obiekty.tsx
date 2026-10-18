@@ -14,14 +14,14 @@ export default function Content() {
       <section className="inner-hero wrap">
         <div className="inner-title">
           <h1 data-reveal="">
-            {"Zacznij"}
+            {"Lorem ipsum."}
             <br />
-            {"od przestrzeni."}
+            {"Lorem ipsum."}
           </h1>
           <div>
             <p data-reveal="">
               {
-                "Funkcja obiektu pomaga uporządkować potrzeby. Wybierz przestrzeń, a potem porozmawiajmy o warunkach technicznych."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
               }
             </p>
             <a className="btn" href="#wybor">
@@ -44,38 +44,38 @@ export default function Content() {
       <section className="wrap section process">
         <div className="section-head">
           <h2 data-reveal="">
-            {"Od rozmowy"}
+            {"Lorem ipsum."}
             <br />
-            {"do działania."}
+            {"Lorem ipsum."}
           </h2>
           <p data-reveal="">
             {
-              "Punkt wyjścia to Twój obiekt. Dobór urządzeń wymaga analizy warunków i potrzeb, a nie samej powierzchni."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et."
             }
           </p>
         </div>
         <div className="process-flow">
           <article data-reveal="">
-            <h3>{"Poznajemy obiekt"}</h3>
+            <h3>{"Lorem ipsum."}</h3>
             <p>
               {
-                "Nowa inwestycja czy modernizacja? Opowiedz o funkcji budynku, istniejących instalacjach i warunkach pracy."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
               }
             </p>
           </article>
           <article data-reveal="">
-            <h3>{"Dobieramy rozwiązanie"}</h3>
+            <h3>{"Dolor sit amet."}</h3>
             <p>
               {
-                "Zespół analizuje potrzeby i zakres prac. Ustalamy urządzenia, układ instalacji oraz kolejne kroki."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
               }
             </p>
           </article>
           <article data-reveal="">
-            <h3>{"Wspieramy wdrożenie"}</h3>
+            <h3>{"Lorem ipsum."}</h3>
             <p>
               {
-                "Dostawa, montaż i serwis. Zakres oraz warunki współpracy potwierdzamy indywidualnie w ofercie."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor."
               }
             </p>
           </article>
@@ -83,15 +83,13 @@ export default function Content() {
       </section>
       <section className="wrap closing section">
         <h2 data-reveal="">
-          {"Twój obiekt."}
+          {"Lorem ipsum."}
           <br />
-          {"Porozmawiajmy."}
+          {"Lorem ipsum."}
         </h2>
         <div data-reveal="">
           <p>
-            {
-              "Wybierz obszar, opisz inwestycję i przygotuj wiadomość do właściwego zespołu."
-            }
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do."}
           </p>
           <a className="btn" href="/projekt">
             {"Zacznij projekt"}

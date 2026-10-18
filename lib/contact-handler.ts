@@ -151,7 +151,7 @@ export async function handleContact(
         from: process.env.CONTACT_FROM,
         to: [to],
         reply_to: v.email,
-        subject: "Zapytanie o inwestycję | Winterwarm",
+        subject: "Zapytanie o inwestycję | ЛОГО",
         text: briefText(v),
       }),
       signal: AbortSignal.timeout(10000),

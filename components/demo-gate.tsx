@@ -80,8 +80,8 @@ export default function DemoGate() {
           <strong>Marian Poliakov</strong>.
         </p>
         <p id="demo-gate-description" className="demo-gate-intro">
-          Ta strona powstała w celach prezentacyjnych. Nie jest oficjalnym
-          serwisem Winterwarm Polska ani ofertą handlową.
+          To neutralny szablon demonstracyjny z tekstem Lorem ipsum. Nie jest
+          stroną rzeczywistej firmy ani ofertą handlową.
         </p>
         <section
           className="demo-gate-warnings"
@@ -93,14 +93,13 @@ export default function DemoGate() {
               Nie wpisuj prawdziwych danych osobowych ani informacji poufnych.
             </li>
             <li>
-              Przygotowanie lub pobranie briefu nie wysyła zapytania. Link
-              e-mail może otworzyć Twoją aplikację pocztową — o wysłaniu
-              wiadomości decydujesz samodzielnie.
+              Przygotowanie lub pobranie briefu nie wysyła zapytania. Adres
+              demo@example.com jest wyłącznie przykładem, nie kontaktem do
+              firmy.
             </li>
             <li>
-              Produkty, parametry techniczne i dane kontaktowe należy
-              potwierdzić w oficjalnym serwisie firmy. Strona nie obsługuje
-              zakupów ani płatności.
+              Nazwy produktów, parametry i kontakty są wyłącznie przykładowe.
+              Strona nie obsługuje zakupów ani płatności.
             </li>
           </ul>
         </section>

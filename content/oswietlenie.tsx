@@ -14,14 +14,14 @@ export default function Content() {
       <section className="inner-hero wrap">
         <div className="inner-title">
           <h1 data-reveal="">
-            {"Światło."}
+            {"Lorem ipsum."}
             <br />
-            {"Do pracy."}
+            {"Lorem ipsum."}
           </h1>
           <div>
             <p data-reveal="">
               {
-                "Systemy oświetlenia LED dla przestrzeni przemysłowych i komercyjnych. Poznaj rodziny opraw Winterwarm."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor."
               }
             </p>
             <a className="btn" href="/produkty?obszar=LED">
@@ -31,7 +31,7 @@ export default function Content() {
         </div>
         <figure className="inner-image" data-reveal="">
           <img
-            alt="Koncepcyjna hala z oświetleniem LED — ilustracja AI, nie zdjęcie modelu Skyline"
+            alt="Koncepcyjna hala z oświetleniem LED — ilustracja AI, instalacja fikcyjna"
             className=""
             decoding="async"
             loading="eager"
@@ -42,59 +42,61 @@ export default function Content() {
       <section className="wrap section skyline-feature">
         <div>
           <div className="section-head">
-            <h2 data-reveal="">{"System Skyline."}</h2>
+            <h2 data-reveal="">{"Dolor sit amet."}</h2>
             <p data-reveal="">
               {
-                "Modułowe oprawy liniowe, wpinane w aluminiowe profile WLL600 / WLL610."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do."
               }
             </p>
           </div>
           <a className="btn light" href="/skyline">
-            {"Poznaj Skyline"}
+            {"Zobacz szczegóły"}
           </a>
         </div>
         <div className="big-fact" data-reveal="">
-          <strong>{"163"}</strong>
-          <span>{"lm/W, maksymalna efektywność podana w karcie Skyline"}</span>
+          <strong>{"—"}</strong>
+          <span>
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed."}
+          </span>
         </div>
       </section>
       <section className="wrap section">
         <div className="section-head">
-          <h2 data-reveal="">{"Rodziny opraw."}</h2>
+          <h2 data-reveal="">{"Lorem ipsum."}</h2>
           <p data-reveal="">
             {
-              "Porównaj zakres oferty. Szczegółowe warianty i warunki doboru potwierdzisz z działem LED."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor."
             }
           </p>
         </div>
         <div className="names-list">
           <a href="/skyline">
-            <h3>{"Skyline"}</h3>
-            <span>{"Dane i cechy systemu"}</span>
+            <h3>{"Lorem ipsum."}</h3>
+            <span>{"Lorem ipsum dolor sit."}</span>
           </a>
-          <a href="https://winterwarm.pl/nextgen/">
-            <h3>{"NEXTGEN"}</h3>
-            <span>{"Katalog źródłowy ↗"}</span>
+          <a href="/produkty">
+            <h3>{"Lorem ipsum."}</h3>
+            <span>{"Lorem ipsum dolor."}</span>
           </a>
-          <a href="https://winterwarm.pl/datalux-lt/">
-            <h3>{"DATALUX.LT"}</h3>
-            <span>{"Katalog źródłowy ↗"}</span>
+          <a href="/produkty">
+            <h3>{"Lorem ipsum."}</h3>
+            <span>{"Lorem ipsum dolor."}</span>
           </a>
-          <a href="https://winterwarm.pl/datalux-ac/">
-            <h3>{"DATALUX.AC"}</h3>
-            <span>{"Katalog źródłowy ↗"}</span>
+          <a href="/produkty">
+            <h3>{"Lorem ipsum."}</h3>
+            <span>{"Lorem ipsum dolor."}</span>
           </a>
-          <a href="https://winterwarm.pl/prefab/">
-            <h3>{"Prefab"}</h3>
-            <span>{"Katalog źródłowy ↗"}</span>
+          <a href="/produkty">
+            <h3>{"Lorem ipsum."}</h3>
+            <span>{"Lorem ipsum dolor."}</span>
           </a>
-          <a href="https://winterwarm.pl/bandraster/">
-            <h3>{"Bandraster"}</h3>
-            <span>{"Katalog źródłowy ↗"}</span>
+          <a href="/produkty">
+            <h3>{"Lorem ipsum."}</h3>
+            <span>{"Lorem ipsum dolor."}</span>
           </a>
-          <a href="https://winterwarm.pl/profil-skyline/">
-            <h3>{"Profil Skyline"}</h3>
-            <span>{"Katalog źródłowy ↗"}</span>
+          <a href="/produkty">
+            <h3>{"Dolor sit amet."}</h3>
+            <span>{"Lorem ipsum dolor."}</span>
           </a>
         </div>
       </section>
@@ -108,13 +110,13 @@ export default function Content() {
         />
         <div>
           <h2>
-            {"Światło"}
+            {"Lorem ipsum."}
             <br />
-            {"w architekturze."}
+            {"Lorem ipsum."}
           </h2>
           <p>
             {
-              "Funkcja pomieszczenia, wysokość montażu i charakter pracy pomagają określić wymagania wobec oświetlenia."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor."
             }
           </p>
           <a className="btn" href="/projekt?obszar=LED">
@@ -126,38 +128,38 @@ export default function Content() {
       <section className="wrap section process">
         <div className="section-head">
           <h2 data-reveal="">
-            {"Od rozmowy"}
+            {"Lorem ipsum."}
             <br />
-            {"do działania."}
+            {"Lorem ipsum."}
           </h2>
           <p data-reveal="">
             {
-              "Punkt wyjścia to Twój obiekt. Dobór urządzeń wymaga analizy warunków i potrzeb, a nie samej powierzchni."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et."
             }
           </p>
         </div>
         <div className="process-flow">
           <article data-reveal="">
-            <h3>{"Poznajemy obiekt"}</h3>
+            <h3>{"Lorem ipsum."}</h3>
             <p>
               {
-                "Nowa inwestycja czy modernizacja? Opowiedz o funkcji budynku, istniejących instalacjach i warunkach pracy."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
               }
             </p>
           </article>
           <article data-reveal="">
-            <h3>{"Dobieramy rozwiązanie"}</h3>
+            <h3>{"Dolor sit amet."}</h3>
             <p>
               {
-                "Zespół analizuje potrzeby i zakres prac. Ustalamy urządzenia, układ instalacji oraz kolejne kroki."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
               }
             </p>
           </article>
           <article data-reveal="">
-            <h3>{"Wspieramy wdrożenie"}</h3>
+            <h3>{"Lorem ipsum."}</h3>
             <p>
               {
-                "Dostawa, montaż i serwis. Zakres oraz warunki współpracy potwierdzamy indywidualnie w ofercie."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor."
               }
             </p>
           </article>
@@ -165,15 +167,13 @@ export default function Content() {
       </section>
       <section className="wrap closing section">
         <h2 data-reveal="">
-          {"Twój obiekt."}
+          {"Lorem ipsum."}
           <br />
-          {"Porozmawiajmy."}
+          {"Lorem ipsum."}
         </h2>
         <div data-reveal="">
           <p>
-            {
-              "Wybierz obszar, opisz inwestycję i przygotuj wiadomość do właściwego zespołu."
-            }
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do."}
           </p>
           <a className="btn" href="/projekt">
             {"Zacznij projekt"}

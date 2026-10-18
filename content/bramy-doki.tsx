@@ -13,11 +13,11 @@ export default function Content() {
     <>
       <section className="inner-hero wrap">
         <div className="inner-title">
-          <h1 data-reveal="">{"Bramy i doki."}</h1>
+          <h1 data-reveal="">{"Lorem ipsum."}</h1>
           <div>
             <p data-reveal="">
               {
-                "Bramy segmentowe, rolowane i doki dla obiektów produkcyjnych, logistycznych oraz transportowych."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod."
               }
             </p>
             <a className="btn" href="/projekt?obszar=Dostęp">
@@ -39,30 +39,30 @@ export default function Content() {
       <section className="wrap section">
         <div className="section-head">
           <h2 data-reveal="">
-            {"Ruch towarów."}
+            {"Lorem ipsum."}
             <br />
-            {"Sprawny dostęp."}
+            {"Lorem ipsum."}
           </h2>
           <p data-reveal="">
             {
-              "Oferta obejmuje bramy Wiśniowski i Krispol oraz doki Wiśniowski. Konkretny wariant dobierany jest do inwestycji."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna."
             }
           </p>
         </div>
         <div className="offer-list">
-          <a href="https://winterwarm.pl/przegrody-drzwi-bramy-doki/bramy-i-doki/bramy-segmentowe-i-rolowane-wisniowski/">
-            <h3>{"Bramy Wiśniowski"}</h3>
-            <p>{"Segmentowe i rolowane. Katalog źródłowy."}</p>
+          <a href="/produkty">
+            <h3>{"Dolor sit amet."}</h3>
+            <p>{"Lorem ipsum dolor sit amet."}</p>
             <span aria-hidden="true">{"↗"}</span>
           </a>
-          <a href="https://winterwarm.pl/przegrody-drzwi-bramy-doki/bramy-i-doki/bramy-segmentowe-i-rolowane-krispol/">
-            <h3>{"Bramy Krispol"}</h3>
-            <p>{"Segmentowe i rolowane. Katalog źródłowy."}</p>
+          <a href="/produkty">
+            <h3>{"Dolor sit amet."}</h3>
+            <p>{"Lorem ipsum dolor sit amet."}</p>
             <span aria-hidden="true">{"↗"}</span>
           </a>
-          <a href="https://winterwarm.pl/przegrody-drzwi-bramy-doki/bramy-i-doki/doki-wisniowski/">
-            <h3>{"Doki Wiśniowski"}</h3>
-            <p>{"Rozwiązania strefy przeładunku. Katalog źródłowy."}</p>
+          <a href="/produkty">
+            <h3>{"Lorem ipsum."}</h3>
+            <p>{"Lorem ipsum dolor sit amet."}</p>
             <span aria-hidden="true">{"↗"}</span>
           </a>
         </div>
@@ -77,15 +77,15 @@ export default function Content() {
         />
         <div>
           <h2>
-            {"Przygotuj"}
+            {"Lorem ipsum."}
             <br />
-            {"warunki doboru."}
+            {"Lorem ipsum."}
           </h2>
           <ul className="plain-list">
-            <li>{"Wymiary otworu i miejsce montażu."}</li>
-            <li>{"Rodzaj ruchu i częstotliwość użytkowania."}</li>
-            <li>{"Wymagania projektu, automatyki i bezpieczeństwa."}</li>
-            <li>{"Warunki otoczenia i sposób przeładunku."}</li>
+            <li>{"Lorem ipsum dolor sit amet."}</li>
+            <li>{"Lorem ipsum dolor sit amet."}</li>
+            <li>{"Lorem ipsum dolor sit amet."}</li>
+            <li>{"Lorem ipsum dolor sit amet."}</li>
           </ul>
           <a className="btn" href="/projekt?obszar=Dostęp">
             {"Opisz swój obiekt"}
@@ -96,12 +96,12 @@ export default function Content() {
       <section className="wrap section related">
         <div className="section-head">
           <h2 data-reveal="">
-            {"Trzy obszary."}
+            {"Lorem ipsum."}
             <br />
-            {"Jeden budynek."}
+            {"Lorem ipsum."}
           </h2>
           <p data-reveal="">
-            {"Przejdź od pojedynczego urządzenia do potrzeb całego obiektu."}
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
           </p>
         </div>
         <a className="related-row" data-reveal="" href="/hvac">
@@ -112,7 +112,7 @@ export default function Content() {
             loading="eager"
             src="/assets/ai-workshop-v1.webp"
           />
-          <h3>{"HVAC"}</h3>
+          <h3>{"Lorem ipsum."}</h3>
           <span aria-hidden="true">{"↗"}</span>
         </a>
         <a className="related-row" data-reveal="" href="/drzwi-bramy">
@@ -123,32 +123,30 @@ export default function Content() {
             loading="eager"
             src="/assets/ai-doors-v1.webp"
           />
-          <h3>{"Drzwi i bramy"}</h3>
+          <h3>{"Lorem ipsum."}</h3>
           <span aria-hidden="true">{"↗"}</span>
         </a>
         <a className="related-row" data-reveal="" href="/oswietlenie">
           <img
-            alt="Koncepcyjna hala z oświetleniem LED — ilustracja AI, nie zdjęcie modelu Skyline"
+            alt="Koncepcyjna hala z oświetleniem LED — ilustracja AI, instalacja fikcyjna"
             className=""
             decoding="async"
             loading="eager"
             src="/assets/ai-lighting-v1.webp"
           />
-          <h3>{"Oświetlenie LED"}</h3>
+          <h3>{"Lorem ipsum."}</h3>
           <span aria-hidden="true">{"↗"}</span>
         </a>
       </section>
       <section className="wrap closing section">
         <h2 data-reveal="">
-          {"Twój obiekt."}
+          {"Lorem ipsum."}
           <br />
-          {"Porozmawiajmy."}
+          {"Lorem ipsum."}
         </h2>
         <div data-reveal="">
           <p>
-            {
-              "Wybierz obszar, opisz inwestycję i przygotuj wiadomość do właściwego zespołu."
-            }
+            {"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do."}
           </p>
           <a className="btn" href="/projekt">
             {"Zacznij projekt"}
